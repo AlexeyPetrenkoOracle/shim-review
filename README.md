@@ -361,7 +361,7 @@ https://github.com/rhboot/shim/releases/tag/15
 -------------------------------------------------------------------------------
 URL for a repo that contains the exact code which was built to get this binary:
 -------------------------------------------------------------------------------
-[your url here]
+https://oss.oracle.com/ol7/shim/shim-15-1.0.1.el7/shim-15-1.0.1.el7.src.rpm
 
 -------------------------------------------------------------------------------
 What patches are being applied and why:

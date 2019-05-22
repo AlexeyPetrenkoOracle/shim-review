@@ -45,10 +45,11 @@ No
 4.18 based kernel with lockdown patches
 
 ###### What changes were made since your SHIM was last signed?
-`[your text here]`
+This is the first shim build for Oracle Linux 8
 
 ###### What is the hash of your final SHIM binary?
-`[your text here]`
+a6a559aa2473153a0300f83154e40a0b4ba0e3463b504c101dee80aac7918ef4  shimia32.efi
+beb1fce87097df87abea14a98bf233f99e85c2041f8b99b36bbdd3b529980899  shimx64.efi
 
 Public certificate:
 -----BEGIN CERTIFICATE-----

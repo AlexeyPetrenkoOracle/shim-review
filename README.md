@@ -293,26 +293,38 @@ https://github.com/rhboot/shim/releases/tag/15
 -------------------------------------------------------------------------------
 URL for a repo that contains the exact code which was built to get this binary:
 -------------------------------------------------------------------------------
-https://oss.oracle.com/ol7/shim/shim-15-1.0.3.el7/shim-15-1.0.3.el7.src.rpm
+https://oss.oracle.com/ol8/shim/15-2.0.1.el8/shim-unsigned-x64-15-2.0.1.el8.src.rpm
 
 -------------------------------------------------------------------------------
 What patches are being applied and why:
 -------------------------------------------------------------------------------
-No additional patches
+A number of patches was backported from shim upstream on top of version 15.
+Here is the relevant changelog:
+* Fri May 17 2019 Alex Burmashev <alexander.burmashev@oracle.com> - 15-2.0.1
+- Build shim binaries without timestamps [Orabug: 29793968]
+- Remove call to TPM2 get_event_log(), update README.tpm [Orabug: 29793968]
+
+* Tue May 7 2019 Fabian Arrotin <arrfab@centos.org> - 15-2.centos
+- Rolled in CentOS CA for secureboot
+- Added 0005-MokListRT-Fatal.patch to avoid crashing legacy uefi/non SB machines
+
+* Tue Feb 12 2019 Peter Jones <pjones@redhat.com> - 15-2
+- Fix MoK mirroring issue which breaks kdump without intervention
+  Related: rhbz#1668966
+
 
 -------------------------------------------------------------------------------
 What OS and toolchain must we use to reproduce this build?  Include where to find it, etc.  We're going to try to reproduce your build as close as possible to verify that it's really a build of the source tree you tell us it is, so these need to be fairly thorough. At the very least include the specific versions of gcc, binutils, and gnu-efi which were used, and where to find those binaries.
 -------------------------------------------------------------------------------
 All the components for the build are available on OL iso and public yum repositories for Oracle Linux.
 
-ISO can be downloaded from here: https://www.oracle.com/linux/index.html
-Public YUM repositories: http://public-yum.oracle.com/oracle-linux-7.html
+BETA ISO can be downloaded from here: https://www.oracle.com/technetwork/server-storage/linux/downloads/linux-beta-4409163.html
 
 -------------------------------------------------------------------------------
 Which files in this repo are the logs for your build?   This should include logs for creating the buildroots, applying patches, doing the build, creating the archives, etc.
 -------------------------------------------------------------------------------
-x86_64-build-log - build log
-x86_64-root-log - build root log
+x86_64-build.log - build log
+x86_64-root.log - build root log
 
 -------------------------------------------------------------------------------
 Add any additional information you think we may need to validate this shim

@@ -293,24 +293,22 @@ https://github.com/rhboot/shim/releases/tag/15
 -------------------------------------------------------------------------------
 URL for a repo that contains the exact code which was built to get this binary:
 -------------------------------------------------------------------------------
-https://oss.oracle.com/ol8/shim/15-2.0.1.el8/shim-unsigned-x64-15-2.0.1.el8.src.rpm
+https://oss.oracle.com/ol8/shim/15-2.0.2.el8/shim-unsigned-x64-15-2.0.2.el8.src.rpm
 
 -------------------------------------------------------------------------------
 What patches are being applied and why:
 -------------------------------------------------------------------------------
 A number of patches was backported from shim upstream on top of version 15.
-Here is the relevant changelog:
-* Fri May 17 2019 Alex Burmashev <alexander.burmashev@oracle.com> - 15-2.0.1
-- Build shim binaries without timestamps [Orabug: 29793968]
-- Remove call to TPM2 get_event_log(), update README.tpm [Orabug: 29793968]
 
-* Tue May 7 2019 Fabian Arrotin <arrfab@centos.org> - 15-2.centos
-- Rolled in CentOS CA for secureboot
-- Added 0005-MokListRT-Fatal.patch to avoid crashing legacy uefi/non SB machines
-
-* Tue Feb 12 2019 Peter Jones <pjones@redhat.com> - 15-2
-- Fix MoK mirroring issue which breaks kdump without intervention
-  Related: rhbz#1668966
+Patch0001: 0001-Make-sure-that-MOK-variables-always-get-mirrored.patch
+Patch0002: 0002-mok-fix-the-mirroring-of-RT-variables.patch
+Patch0003: 0003-mok-consolidate-mirroring-code-in-a-helper-instead-o.patch
+Patch0004: 0004-Make-VLogError-behave-as-expected.patch
+Patch0005: 0005-MokListRT-Fatal.patch
+Patch1006: 1006-Once-again-try-even-harder-to-get-binaries-without-t.patch
+Patch1007: 1007-Remove-call-to-TPM2-get_event_log.patch
+Patch1008: 1008-Add-grub2-PCR-usage-to_README_TPM.patch
+Patch1009: 1009-shim-Properly-generate-absolute-paths-from-relative-.patch
 
 
 -------------------------------------------------------------------------------
@@ -318,7 +316,7 @@ What OS and toolchain must we use to reproduce this build?  Include where to fin
 -------------------------------------------------------------------------------
 All the components for the build are available on OL iso and public yum repositories for Oracle Linux.
 
-BETA ISO can be downloaded from here: https://www.oracle.com/technetwork/server-storage/linux/downloads/linux-beta-4409163.html
+OL8 Docker container can be downloaded from docker hub
 
 -------------------------------------------------------------------------------
 Which files in this repo are the logs for your build?   This should include logs for creating the buildroots, applying patches, doing the build, creating the archives, etc.

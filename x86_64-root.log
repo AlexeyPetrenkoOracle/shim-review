@@ -1,38 +1,37 @@
 INFO buildroot.py:350:  Mock Version: 1.4.13
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/pts
-DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/pts
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/shm
-DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/shm
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/pts
+DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/pts
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/shm
+DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/shm
 DEBUG buildroot.py:481:  kernel version == 4.18.0-80.el8.x86_64
-DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/etc/fstab
-DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/etc/yum/yum.conf
-DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/etc/dnf/dnf.conf
-DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/var/log/yum.log
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/proc
+DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/etc/fstab
+DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/etc/yum/yum.conf
+DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/etc/dnf/dnf.conf
+DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/var/log/yum.log
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/proc
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'proc', 'proc', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'proc', 'proc', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/sys
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/sys
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'sysfs', 'sysfs', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'sysfs', 'sysfs', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/shm
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/shm
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/pts
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/pts
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/var/cache/yum/
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/var/cache/yum/
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '--bind', '/var/cache/mock/rhel8-x86_64-u1/yum_cache/', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/var/cache/yum/'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '--bind', '/var/cache/mock/rhel8-x86_64-u0/yum_cache/', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/var/cache/yum/'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
-DEBUG buildroot.py:143:  rootdir = /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root
+DEBUG buildroot.py:143:  rootdir = /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root
 DEBUG buildroot.py:144:  resultdir = result/x86_64
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/etc/pki/mock
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/etc/yum/pluginconf.d.real
-DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/etc/yum/pluginconf.d.real
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/etc/pki/mock
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/etc/yum/pluginconf.d.real
 DEBUG package_manager.py:256:  configure yum
 DEBUG package_manager.py:268:  configure yum priorities
 DEBUG package_manager.py:270:  configure yum rhnplugin
@@ -41,55 +40,55 @@ DEBUG util.py:579:  Executing command: ['/usr/sbin/usermod', '-u', '1039', '--no
 DEBUG util.py:325:  Unsharing. Flags: 134217728
 DEBUG util.py:490:  BUILDSTDERR: usermod: no changes
 DEBUG util.py:634:  Child return code was: 0
-DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/.initialized
+DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/.initialized
 DEBUG util.py:228:  kill orphans
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/var/cache/yum/'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/var/cache/yum/'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
 INFO buildroot.py:350:  Mock Version: 1.4.13
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/pts
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/shm
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/pts
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/shm
 DEBUG buildroot.py:481:  kernel version == 4.18.0-80.el8.x86_64
-DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/etc/fstab
-DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/etc/yum/yum.conf
-DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/etc/dnf/dnf.conf
-DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/var/log/yum.log
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/proc
+DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/etc/fstab
+DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/etc/yum/yum.conf
+DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/etc/dnf/dnf.conf
+DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/var/log/yum.log
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/proc
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'proc', 'proc', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'proc', 'proc', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/sys
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/sys
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'sysfs', 'sysfs', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'sysfs', 'sysfs', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/shm
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/shm
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/pts
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/pts
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/var/cache/yum/
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/var/cache/yum/
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '--bind', '/var/cache/mock/rhel8-x86_64-u1/yum_cache/', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/var/cache/yum/'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/mount', '-n', '--bind', '/var/cache/mock/rhel8-x86_64-u0/yum_cache/', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/var/cache/yum/'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
-DEBUG buildroot.py:143:  rootdir = /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root
+DEBUG buildroot.py:143:  rootdir = /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root
 DEBUG buildroot.py:144:  resultdir = result/x86_64
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/etc/pki/mock
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/etc/yum/pluginconf.d.real
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/etc/pki/mock
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/etc/yum/pluginconf.d.real
 DEBUG package_manager.py:256:  configure yum
 DEBUG package_manager.py:268:  configure yum priorities
 DEBUG package_manager.py:270:  configure yum rhnplugin
@@ -112,28 +111,28 @@ DEBUG util.py:490:  BUILDSTDERR: useradd: warning: the home directory already ex
 DEBUG util.py:490:  BUILDSTDERR: Not copying any file from skel directory into it.
 DEBUG util.py:490:  BUILDSTDERR: Creating mailbox file: File exists
 DEBUG util.py:634:  Child return code was: 0
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/builddir/build/RPMS
-DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/builddir/build/RPMS
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/builddir/build/SPECS
-DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/builddir/build/SPECS
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/builddir/build/SRPMS
-DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/builddir/build/SRPMS
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/builddir/build/SOURCES
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/builddir/build/BUILD
-DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/builddir/build/BUILD
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/builddir/build/BUILDROOT
-DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/builddir/build/BUILDROOT
-DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/builddir/build/originals
-DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/builddir/build/originals
-DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/.initialized
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/builddir/build/RPMS
+DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/builddir/build/RPMS
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/builddir/build/SPECS
+DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/builddir/build/SPECS
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/builddir/build/SRPMS
+DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/builddir/build/SRPMS
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/builddir/build/SOURCES
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/builddir/build/BUILD
+DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/builddir/build/BUILD
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/builddir/build/BUILDROOT
+DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/builddir/build/BUILDROOT
+DEBUG util.py:116:  ensuring that dir exists: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/builddir/build/originals
+DEBUG util.py:119:  creating dir: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/builddir/build/originals
+DEBUG util.py:129:  touching file: /var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/.initialized
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/rpm', '-Uvh', '--nodeps', '/builddir/build/originals/shim-unsigned-x64-15-2.0.2.el8.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'en_US.UTF-8', 'no_proxy': 'us.oracle.com,.oraclecorp.com'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/rpm', '-Uvh', '--nodeps', '/builddir/build/originals/shim-unsigned-x64-15-2.0.3.el8.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'en_US.UTF-8', 'no_proxy': 'us.oracle.com,.oraclecorp.com'} and shell False
 DEBUG util.py:325:  Unsharing. Flags: 134217728
 DEBUG util.py:492:  Updating / installing...
-DEBUG util.py:492:  shim-unsigned-x64-15-2.0.2.el8        ########################################
+DEBUG util.py:492:  shim-unsigned-x64-15-2.0.3.el8        ########################################
 DEBUG util.py:634:  Child return code was: 0
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/rpm', '-qpl', '/builddir/build/originals/shim-unsigned-x64-15-2.0.2.el8.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'en_US.UTF-8', 'no_proxy': 'us.oracle.com,.oraclecorp.com'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/rpm', '-qpl', '/builddir/build/originals/shim-unsigned-x64-15-2.0.3.el8.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'en_US.UTF-8', 'no_proxy': 'us.oracle.com,.oraclecorp.com'} and shell False
 DEBUG util.py:325:  Unsharing. Flags: 134217728
 DEBUG util.py:492:  0001-Make-sure-that-MOK-variables-always-get-mirrored.patch
 DEBUG util.py:492:  0002-mok-fix-the-mirroring-of-RT-variables.patch
@@ -152,196 +151,177 @@ DEBUG util.py:492:  shim-unsigned-x64.spec
 DEBUG util.py:634:  Child return code was: 0
 DEBUG util.py:653:  child environment: None
 DEBUG util.py:325:  Unsharing. Flags: 134217728
-DEBUG package_manager.py:118:  ['/usr/bin/yum-builddep', '--installroot', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root//builddir/build/SRPMS/shim-unsigned-x64-15-2.0.2.el8.src.rpm']
+DEBUG package_manager.py:118:  ['/usr/bin/yum-builddep', '--installroot', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root//builddir/build/SRPMS/shim-unsigned-x64-15-2.0.3.el8.src.rpm']
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/usr/bin/yum-builddep', '--installroot', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root//builddir/build/SRPMS/shim-unsigned-x64-15-2.0.2.el8.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'en_US.UTF-8', 'no_proxy': 'us.oracle.com,.oraclecorp.com', 'LC_MESSAGES': 'C.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/usr/bin/yum-builddep', '--installroot', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root//builddir/build/SRPMS/shim-unsigned-x64-15-2.0.3.el8.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'en_US.UTF-8', 'no_proxy': 'us.oracle.com,.oraclecorp.com', 'LC_MESSAGES': 'C.UTF-8'} and shell False
 DEBUG util.py:492:  u0-deps                                          21 kB/s | 3.0 kB     00:00    
-DEBUG util.py:492:  u0-ol-AppStream                                  21 kB/s | 3.0 kB     00:00    
+DEBUG util.py:492:  u0-ol-AppStream                                  19 kB/s | 3.0 kB     00:00    
 DEBUG util.py:492:  u0-ol-BaseOS                                     21 kB/s | 3.0 kB     00:00    
 DEBUG util.py:492:  u0-ol-modules                                    25 kB/s | 3.5 kB     00:00    
-DEBUG util.py:492:  u1-ol-modules                                    25 kB/s | 3.5 kB     00:00    
+DEBUG util.py:492:  u0-ol-modules                                   1.8 MB/s | 6.7 MB     00:03    
 DEBUG util.py:492:  groups                                           21 kB/s | 2.9 kB     00:00    
 DEBUG util.py:492:  u0                                               22 kB/s | 3.0 kB     00:00    
-DEBUG util.py:492:  u0                                              8.7 MB/s |  23 MB     00:02    
-DEBUG util.py:492:  u1                                               21 kB/s | 3.0 kB     00:00    
-DEBUG util.py:492:  upstream_deps                                    22 kB/s | 3.0 kB     00:00    
-DEBUG util.py:492:  other_deps                                       21 kB/s | 3.0 kB     00:00    
+DEBUG util.py:492:  upstream_deps                                    21 kB/s | 3.0 kB     00:00    
+DEBUG util.py:492:  other_deps                                       21 kB/s | 2.9 kB     00:00    
 DEBUG util.py:492:  Dependencies resolved.
 DEBUG util.py:492:  ================================================================================
-DEBUG util.py:492:   Package                    Arch       Version                     Repository
-DEBUG util.py:492:                                                                             Size
+DEBUG util.py:492:   Package                Arch   Version                      Repository     Size
 DEBUG util.py:492:  ================================================================================
 DEBUG util.py:492:  Installing:
-DEBUG util.py:492:   gnu-efi                    x86_64     1:3.0.8-2.0.1.el8           u0      72 k
-DEBUG util.py:492:   gnu-efi-devel              x86_64     1:3.0.8-2.0.1.el8           u0     110 k
-DEBUG util.py:492:   pesign                     x86_64     0.112-25.0.1.el8            u0     180 k
-DEBUG util.py:492:   elfutils-libelf-devel      x86_64     0.176-4.el8                 u1      54 k
-DEBUG util.py:492:   git                        x86_64     2.18.1-4.el8                u1     186 k
-DEBUG util.py:492:   openssl                    x86_64     1:1.1.1c-1.el8              u1     686 k
-DEBUG util.py:492:   openssl-devel              x86_64     1:1.1.1c-1.el8              u1     2.3 M
+DEBUG util.py:492:   elfutils-libelf-devel  x86_64 0.174-6.el8                  u0             53 k
+DEBUG util.py:492:   git                    x86_64 2.18.1-3.el8                 u0            186 k
+DEBUG util.py:492:   gnu-efi                x86_64 1:3.0.8-2.el8                u0             71 k
+DEBUG util.py:492:   gnu-efi-devel          x86_64 1:3.0.8-2.el8                u0            110 k
+DEBUG util.py:492:   openssl                x86_64 1:1.1.1-8.0.1.el8            u0            664 k
+DEBUG util.py:492:   openssl-devel          x86_64 1:1.1.1-8.0.1.el8            u0            2.3 M
+DEBUG util.py:492:   pesign                 x86_64 0.112-25.0.1.el8             u0            180 k
 DEBUG util.py:492:  Installing dependencies:
-DEBUG util.py:492:   efivar-libs                x86_64     36-1.el8                    u0      96 k
-DEBUG util.py:492:   emacs-filesystem           noarch     1:26.1-5.el8                u0      68 k
-DEBUG util.py:492:   fipscheck                  x86_64     1.5.0-4.el8                 u0      26 k
-DEBUG util.py:492:   fipscheck-lib              x86_64     1.5.0-4.el8                 u0      14 k
-DEBUG util.py:492:   groff-base                 x86_64     1.22.3-18.el8               u0     1.0 M
-DEBUG util.py:492:   keyutils-libs-devel        x86_64     1.5.10-6.el8                u0      47 k
-DEBUG util.py:492:   less                       x86_64     530-1.el8                   u0     163 k
-DEBUG util.py:492:   libedit                    x86_64     3.1-23.20170329cvs.el8      u0     101 k
-DEBUG util.py:492:   libverto-devel             x86_64     0.3.0-5.el8                 u0      17 k
-DEBUG util.py:492:   nspr                       x86_64     4.21.0-2.el8_0              u0     143 k
-DEBUG util.py:492:   nss                        x86_64     3.44.0-7.el8_0              u0     722 k
-DEBUG util.py:492:   nss-softokn                x86_64     3.44.0-7.el8_0              u0     470 k
-DEBUG util.py:492:   nss-softokn-freebl         x86_64     3.44.0-7.el8_0              u0     274 k
-DEBUG util.py:492:   nss-sysinit                x86_64     3.44.0-7.el8_0              u0      69 k
-DEBUG util.py:492:   nss-tools                  x86_64     3.44.0-7.el8_0              u0     569 k
-DEBUG util.py:492:   nss-util                   x86_64     3.44.0-7.el8_0              u0     134 k
-DEBUG util.py:492:   pcre2-devel                x86_64     10.32-1.el8                 u0     605 k
-DEBUG util.py:492:   pcre2-utf16                x86_64     10.32-1.el8                 u0     228 k
-DEBUG util.py:492:   pcre2-utf32                x86_64     10.32-1.el8                 u0     220 k
-DEBUG util.py:492:   perl-Carp                  noarch     1.42-396.el8                u0      29 k
-DEBUG util.py:492:   perl-Data-Dumper           x86_64     2.167-399.el8               u0      57 k
-DEBUG util.py:492:   perl-Digest                noarch     1.17-395.el8                u0      26 k
-DEBUG util.py:492:   perl-Digest-MD5            x86_64     2.55-396.el8                u0      36 k
-DEBUG util.py:492:   perl-Encode                x86_64     4:2.97-3.el8                u0     1.5 M
-DEBUG util.py:492:   perl-Errno                 x86_64     1.28-416.el8                u0      76 k
-DEBUG util.py:492:   perl-Error                 noarch     1:0.17025-2.el8             u0      45 k
-DEBUG util.py:492:   perl-Exporter              noarch     5.72-396.el8                u0      33 k
-DEBUG util.py:492:   perl-File-Path             noarch     2.15-2.el8                  u0      37 k
-DEBUG util.py:492:   perl-File-Temp             noarch     0.230.600-1.el8             u0      61 k
-DEBUG util.py:492:   perl-Getopt-Long           noarch     1:2.50-4.el8                u0      62 k
-DEBUG util.py:492:   perl-HTTP-Tiny             noarch     0.074-1.el8                 u0      57 k
-DEBUG util.py:492:   perl-IO                    x86_64     1.38-416.el8                u0     141 k
-DEBUG util.py:492:   perl-MIME-Base64           x86_64     3.15-396.el8                u0      29 k
-DEBUG util.py:492:   perl-PathTools             x86_64     3.74-1.el8                  u0      89 k
-DEBUG util.py:492:   perl-Pod-Escapes           noarch     1:1.07-395.el8              u0      19 k
-DEBUG util.py:492:   perl-Pod-Perldoc           noarch     3.28-396.el8                u0      87 k
-DEBUG util.py:492:   perl-Pod-Simple            noarch     1:3.35-395.el8              u0     212 k
-DEBUG util.py:492:   perl-Pod-Usage             noarch     4:1.69-395.el8              u0      33 k
-DEBUG util.py:492:   perl-Scalar-List-Utils     x86_64     3:1.49-2.el8                u0      67 k
-DEBUG util.py:492:   perl-Storable              x86_64     1:3.11-3.el8                u0      98 k
-DEBUG util.py:492:   perl-Term-ANSIColor        noarch     4.06-396.el8                u0      45 k
-DEBUG util.py:492:   perl-Term-Cap              noarch     1.17-395.el8                u0      22 k
-DEBUG util.py:492:   perl-TermReadKey           x86_64     2.37-7.el8                  u0      39 k
-DEBUG util.py:492:   perl-Text-ParseWords       noarch     3.30-395.el8                u0      17 k
-DEBUG util.py:492:   perl-Text-Tabs+Wrap        noarch     2013.0523-395.el8           u0      24 k
-DEBUG util.py:492:   perl-Time-Local            noarch     1:1.280-1.el8               u0      32 k
-DEBUG util.py:492:   perl-URI                   noarch     1.73-3.el8                  u0     115 k
-DEBUG util.py:492:   perl-Unicode-Normalize     x86_64     1.25-396.el8                u0      81 k
-DEBUG util.py:492:   perl-constant              noarch     1.33-396.el8                u0      24 k
-DEBUG util.py:492:   perl-interpreter           x86_64     4:5.26.3-416.el8            u0     6.3 M
-DEBUG util.py:492:   perl-libnet                noarch     3.11-3.el8                  u0     120 k
-DEBUG util.py:492:   perl-libs                  x86_64     4:5.26.3-416.el8            u0     1.6 M
-DEBUG util.py:492:   perl-macros                x86_64     4:5.26.3-416.el8            u0      72 k
-DEBUG util.py:492:   perl-parent                noarch     1:0.237-1.el8               u0      19 k
-DEBUG util.py:492:   perl-podlators             noarch     4.11-1.el8                  u0     117 k
-DEBUG util.py:492:   perl-threads               x86_64     1:2.21-2.el8                u0      60 k
-DEBUG util.py:492:   perl-threads-shared        x86_64     1.58-2.el8                  u0      46 k
-DEBUG util.py:492:   zlib-devel                 x86_64     1.2.11-10.el8               u0      55 k
-DEBUG util.py:492:   git-core                   x86_64     2.18.1-4.el8                u1     4.3 M
-DEBUG util.py:492:   git-core-doc               noarch     2.18.1-4.el8                u1     2.3 M
-DEBUG util.py:492:   krb5-devel                 x86_64     1.17-7.el8                  u1     548 k
-DEBUG util.py:492:   libcom_err-devel           x86_64     1.44.6-3.el8                u1      38 k
-DEBUG util.py:492:   libkadm5                   x86_64     1.17-7.el8                  u1     184 k
-DEBUG util.py:492:   libselinux-devel           x86_64     2.9-1.el8                   u1     199 k
-DEBUG util.py:492:   libsepol-devel             x86_64     2.9-1.el8                   u1      86 k
-DEBUG util.py:492:   openssh                    x86_64     8.0p1-2.el8                 u1     520 k
-DEBUG util.py:492:   openssh-clients            x86_64     8.0p1-2.el8                 u1     700 k
-DEBUG util.py:492:   perl-Git                   noarch     2.18.1-4.el8                u1      77 k
-DEBUG util.py:492:   perl-Net-SSLeay            x86_64     1.88-1.el8                  u1     379 k
-DEBUG util.py:492:   perl-Socket                x86_64     4:2.027-3.el8               u1      59 k
-DEBUG util.py:492:  Installing weak dependencies:
-DEBUG util.py:492:   perl-IO-Socket-IP          noarch     0.39-5.el8                  u0      46 k
-DEBUG util.py:492:   perl-Mozilla-CA            noarch     20160104-7.el8              u0      14 k
-DEBUG util.py:492:   perl-IO-Socket-SSL         noarch     2.066-2.el8                 u1     297 k
+DEBUG util.py:492:   libselinux-devel       x86_64 2.8-6.module+el8+5159+1f46f18f
+DEBUG util.py:492:                                                              u0-ol-modules 198 k
+DEBUG util.py:492:   efivar-libs            x86_64 36-1.el8                     u0             96 k
+DEBUG util.py:492:   emacs-filesystem       noarch 1:26.1-5.el8                 u0             68 k
+DEBUG util.py:492:   fipscheck              x86_64 1.5.0-4.el8                  u0             26 k
+DEBUG util.py:492:   fipscheck-lib          x86_64 1.5.0-4.el8                  u0             14 k
+DEBUG util.py:492:   git-core               x86_64 2.18.1-3.el8                 u0            4.1 M
+DEBUG util.py:492:   git-core-doc           noarch 2.18.1-3.el8                 u0            2.3 M
+DEBUG util.py:492:   groff-base             x86_64 1.22.3-18.el8                u0            1.0 M
+DEBUG util.py:492:   keyutils-libs-devel    x86_64 1.5.10-6.el8                 u0             47 k
+DEBUG util.py:492:   krb5-devel             x86_64 1.16.1-22.el8                u0            546 k
+DEBUG util.py:492:   less                   x86_64 530-1.el8                    u0            163 k
+DEBUG util.py:492:   libcom_err-devel       x86_64 1.44.3-2.el8                 u0             37 k
+DEBUG util.py:492:   libedit                x86_64 3.1-23.20170329cvs.el8       u0            101 k
+DEBUG util.py:492:   libkadm5               x86_64 1.16.1-22.el8                u0            184 k
+DEBUG util.py:492:   libsecret              x86_64 0.18.6-1.el8                 u0            163 k
+DEBUG util.py:492:   libsepol-devel         x86_64 2.8-2.el8                    u0             85 k
+DEBUG util.py:492:   libverto-devel         x86_64 0.3.0-5.el8                  u0             17 k
+DEBUG util.py:492:   nspr                   x86_64 4.21.0-2.el8_0               u0            143 k
+DEBUG util.py:492:   nss                    x86_64 3.44.0-7.el8_0               u0            722 k
+DEBUG util.py:492:   nss-softokn            x86_64 3.44.0-7.el8_0               u0            470 k
+DEBUG util.py:492:   nss-softokn-freebl     x86_64 3.44.0-7.el8_0               u0            274 k
+DEBUG util.py:492:   nss-sysinit            x86_64 3.44.0-7.el8_0               u0             69 k
+DEBUG util.py:492:   nss-tools              x86_64 3.44.0-7.el8_0               u0            569 k
+DEBUG util.py:492:   nss-util               x86_64 3.44.0-7.el8_0               u0            134 k
+DEBUG util.py:492:   openssh                x86_64 7.8p1-4.el8                  u0            503 k
+DEBUG util.py:492:   openssh-clients        x86_64 7.8p1-4.el8                  u0            655 k
+DEBUG util.py:492:   pcre2-devel            x86_64 10.32-1.el8                  u0            605 k
+DEBUG util.py:492:   pcre2-utf16            x86_64 10.32-1.el8                  u0            228 k
+DEBUG util.py:492:   pcre2-utf32            x86_64 10.32-1.el8                  u0            220 k
+DEBUG util.py:492:   perl-Carp              noarch 1.42-396.el8                 u0             29 k
+DEBUG util.py:492:   perl-Encode            x86_64 4:2.97-3.el8                 u0            1.5 M
+DEBUG util.py:492:   perl-Errno             x86_64 1.28-416.el8                 u0             76 k
+DEBUG util.py:492:   perl-Error             noarch 1:0.17025-2.el8              u0             45 k
+DEBUG util.py:492:   perl-Exporter          noarch 5.72-396.el8                 u0             33 k
+DEBUG util.py:492:   perl-File-Path         noarch 2.15-2.el8                   u0             37 k
+DEBUG util.py:492:   perl-File-Temp         noarch 0.230.600-1.el8              u0             61 k
+DEBUG util.py:492:   perl-Getopt-Long       noarch 1:2.50-4.el8                 u0             62 k
+DEBUG util.py:492:   perl-Git               noarch 2.18.1-3.el8                 u0             77 k
+DEBUG util.py:492:   perl-HTTP-Tiny         noarch 0.074-1.el8                  u0             57 k
+DEBUG util.py:492:   perl-IO                x86_64 1.38-416.el8                 u0            141 k
+DEBUG util.py:492:   perl-MIME-Base64       x86_64 3.15-396.el8                 u0             29 k
+DEBUG util.py:492:   perl-PathTools         x86_64 3.74-1.el8                   u0             89 k
+DEBUG util.py:492:   perl-Pod-Escapes       noarch 1:1.07-395.el8               u0             19 k
+DEBUG util.py:492:   perl-Pod-Perldoc       noarch 3.28-396.el8                 u0             87 k
+DEBUG util.py:492:   perl-Pod-Simple        noarch 1:3.35-395.el8               u0            212 k
+DEBUG util.py:492:   perl-Pod-Usage         noarch 4:1.69-395.el8               u0             33 k
+DEBUG util.py:492:   perl-Scalar-List-Utils x86_64 3:1.49-2.el8                 u0             67 k
+DEBUG util.py:492:   perl-Socket            x86_64 4:2.027-2.el8                u0             58 k
+DEBUG util.py:492:   perl-Storable          x86_64 1:3.11-3.el8                 u0             98 k
+DEBUG util.py:492:   perl-Term-ANSIColor    noarch 4.06-396.el8                 u0             45 k
+DEBUG util.py:492:   perl-Term-Cap          noarch 1.17-395.el8                 u0             22 k
+DEBUG util.py:492:   perl-TermReadKey       x86_64 2.37-7.el8                   u0             39 k
+DEBUG util.py:492:   perl-Text-ParseWords   noarch 3.30-395.el8                 u0             17 k
+DEBUG util.py:492:   perl-Text-Tabs+Wrap    noarch 2013.0523-395.el8            u0             24 k
+DEBUG util.py:492:   perl-Time-Local        noarch 1:1.280-1.el8                u0             32 k
+DEBUG util.py:492:   perl-Unicode-Normalize x86_64 1.25-396.el8                 u0             81 k
+DEBUG util.py:492:   perl-constant          noarch 1.33-396.el8                 u0             24 k
+DEBUG util.py:492:   perl-interpreter       x86_64 4:5.26.3-416.el8             u0            6.3 M
+DEBUG util.py:492:   perl-libs              x86_64 4:5.26.3-416.el8             u0            1.6 M
+DEBUG util.py:492:   perl-macros            x86_64 4:5.26.3-416.el8             u0             72 k
+DEBUG util.py:492:   perl-parent            noarch 1:0.237-1.el8                u0             19 k
+DEBUG util.py:492:   perl-podlators         noarch 4.11-1.el8                   u0            117 k
+DEBUG util.py:492:   perl-threads           x86_64 1:2.21-2.el8                 u0             60 k
+DEBUG util.py:492:   perl-threads-shared    x86_64 1.58-2.el8                   u0             46 k
+DEBUG util.py:492:   zlib-devel             x86_64 1.2.11-10.el8                u0             55 k
 DEBUG util.py:492:  Transaction Summary
 DEBUG util.py:492:  ================================================================================
-DEBUG util.py:492:  Install  80 Packages
-DEBUG util.py:492:  Total download size: 30 M
-DEBUG util.py:492:  Installed size: 109 M
+DEBUG util.py:492:  Install  72 Packages
+DEBUG util.py:492:  Total download size: 28 M
+DEBUG util.py:492:  Installed size: 103 M
 DEBUG util.py:492:  Downloading Packages:
-DEBUG util.py:492:  (1/80): fipscheck-1.5.0-4.el8.x86_64.rpm         95 kB/s |  26 kB     00:00    
-DEBUG util.py:492:  (2/80): emacs-filesystem-26.1-5.el8.noarch.rpm  197 kB/s |  68 kB     00:00    
-DEBUG util.py:492:  (3/80): efivar-libs-36-1.el8.x86_64.rpm         275 kB/s |  96 kB     00:00    
-DEBUG util.py:492:  (4/80): fipscheck-lib-1.5.0-4.el8.x86_64.rpm    202 kB/s |  14 kB     00:00    
-DEBUG util.py:492:  (5/80): gnu-efi-3.0.8-2.0.1.el8.x86_64.rpm      509 kB/s |  72 kB     00:00    
-DEBUG util.py:492:  (6/80): gnu-efi-devel-3.0.8-2.0.1.el8.x86_64.rp 525 kB/s | 110 kB     00:00    
-DEBUG util.py:492:  (7/80): keyutils-libs-devel-1.5.10-6.el8.x86_64 335 kB/s |  47 kB     00:00    
-DEBUG util.py:492:  (8/80): libedit-3.1-23.20170329cvs.el8.x86_64.r 721 kB/s | 101 kB     00:00    
-DEBUG util.py:492:  (9/80): less-530-1.el8.x86_64.rpm               776 kB/s | 163 kB     00:00    
-DEBUG util.py:492:  (10/80): libverto-devel-0.3.0-5.el8.x86_64.rpm  235 kB/s |  17 kB     00:00    
-DEBUG util.py:492:  (11/80): nspr-4.21.0-2.el8_0.x86_64.rpm         987 kB/s | 143 kB     00:00    
-DEBUG util.py:492:  (12/80): groff-base-1.22.3-18.el8.x86_64.rpm    1.4 MB/s | 1.0 MB     00:00    
-DEBUG util.py:492:  (13/80): nss-softokn-3.44.0-7.el8_0.x86_64.rpm  1.4 MB/s | 470 kB     00:00    
-DEBUG util.py:492:  (14/80): nss-softokn-freebl-3.44.0-7.el8_0.x86_ 1.8 MB/s | 274 kB     00:00    
-DEBUG util.py:492:  (15/80): nss-sysinit-3.44.0-7.el8_0.x86_64.rpm  960 kB/s |  69 kB     00:00    
-DEBUG util.py:492:  (16/80): nss-util-3.44.0-7.el8_0.x86_64.rpm     1.7 MB/s | 134 kB     00:00    
-DEBUG util.py:492:  (17/80): nss-tools-3.44.0-7.el8_0.x86_64.rpm    3.4 MB/s | 569 kB     00:00    
-DEBUG util.py:492:  (18/80): nss-3.44.0-7.el8_0.x86_64.rpm          1.1 MB/s | 722 kB     00:00    
-DEBUG util.py:492:  (19/80): pcre2-utf16-10.32-1.el8.x86_64.rpm     1.8 MB/s | 228 kB     00:00    
-DEBUG util.py:492:  (20/80): perl-Carp-1.42-396.el8.noarch.rpm      403 kB/s |  29 kB     00:00    
-DEBUG util.py:492:  (21/80): pcre2-devel-10.32-1.el8.x86_64.rpm     2.6 MB/s | 605 kB     00:00    
-DEBUG util.py:492:  (22/80): pcre2-utf32-10.32-1.el8.x86_64.rpm     1.1 MB/s | 220 kB     00:00    
-DEBUG util.py:492:  (23/80): perl-Data-Dumper-2.167-399.el8.x86_64. 654 kB/s |  57 kB     00:00    
-DEBUG util.py:492:  (24/80): perl-Digest-1.17-395.el8.noarch.rpm    205 kB/s |  26 kB     00:00    
-DEBUG util.py:492:  (25/80): perl-Digest-MD5-2.55-396.el8.x86_64.rp 420 kB/s |  36 kB     00:00    
-DEBUG util.py:492:  (26/80): perl-Errno-1.28-416.el8.x86_64.rpm     893 kB/s |  76 kB     00:00    
-DEBUG util.py:492:  (27/80): perl-Error-0.17025-2.el8.noarch.rpm    623 kB/s |  45 kB     00:00    
-DEBUG util.py:492:  (28/80): perl-Exporter-5.72-396.el8.noarch.rpm  428 kB/s |  33 kB     00:00    
-DEBUG util.py:492:  (29/80): perl-File-Path-2.15-2.el8.noarch.rpm   477 kB/s |  37 kB     00:00    
-DEBUG util.py:492:  (30/80): perl-File-Temp-0.230.600-1.el8.noarch. 805 kB/s |  61 kB     00:00    
-DEBUG util.py:492:  (31/80): perl-Getopt-Long-2.50-4.el8.noarch.rpm 612 kB/s |  62 kB     00:00    
-DEBUG util.py:492:  (32/80): perl-Encode-2.97-3.el8.x86_64.rpm      4.0 MB/s | 1.5 MB     00:00    
-DEBUG util.py:492:  (33/80): perl-HTTP-Tiny-0.074-1.el8.noarch.rpm  584 kB/s |  57 kB     00:00    
-DEBUG util.py:492:  (34/80): perl-IO-Socket-IP-0.39-5.el8.noarch.rp 507 kB/s |  46 kB     00:00    
-DEBUG util.py:492:  (35/80): perl-IO-1.38-416.el8.x86_64.rpm        1.0 MB/s | 141 kB     00:00    
-DEBUG util.py:492:  (36/80): perl-MIME-Base64-3.15-396.el8.x86_64.r 212 kB/s |  29 kB     00:00    
-DEBUG util.py:492:  (37/80): perl-Mozilla-CA-20160104-7.el8.noarch. 198 kB/s |  14 kB     00:00    
-DEBUG util.py:492:  (38/80): perl-PathTools-3.74-1.el8.x86_64.rpm   637 kB/s |  89 kB     00:00    
-DEBUG util.py:492:  (39/80): perl-Pod-Escapes-1.07-395.el8.noarch.r 268 kB/s |  19 kB     00:00    
-DEBUG util.py:492:  (40/80): perl-Pod-Perldoc-3.28-396.el8.noarch.r 614 kB/s |  87 kB     00:00    
-DEBUG util.py:492:  (41/80): perl-Pod-Usage-1.69-395.el8.noarch.rpm 463 kB/s |  33 kB     00:00    
-DEBUG util.py:492:  (42/80): perl-Pod-Simple-3.35-395.el8.noarch.rp 1.4 MB/s | 212 kB     00:00    
-DEBUG util.py:492:  (43/80): perl-Scalar-List-Utils-1.49-2.el8.x86_ 917 kB/s |  67 kB     00:00    
-DEBUG util.py:492:  (44/80): perl-Storable-3.11-3.el8.x86_64.rpm    696 kB/s |  98 kB     00:00    
-DEBUG util.py:492:  (45/80): perl-Term-Cap-1.17-395.el8.noarch.rpm  306 kB/s |  22 kB     00:00    
-DEBUG util.py:492:  (46/80): perl-Term-ANSIColor-4.06-396.el8.noarc 617 kB/s |  45 kB     00:00    
-DEBUG util.py:492:  (47/80): perl-Text-ParseWords-3.30-395.el8.noar 237 kB/s |  17 kB     00:00    
-DEBUG util.py:492:  (48/80): perl-Text-Tabs+Wrap-2013.0523-395.el8. 174 kB/s |  24 kB     00:00    
-DEBUG util.py:492:  (49/80): perl-Time-Local-1.280-1.el8.noarch.rpm 253 kB/s |  32 kB     00:00    
-DEBUG util.py:492:  (50/80): perl-URI-1.73-3.el8.noarch.rpm         881 kB/s | 115 kB     00:00    
-DEBUG util.py:492:  (51/80): perl-TermReadKey-2.37-7.el8.x86_64.rpm 114 kB/s |  39 kB     00:00    
-DEBUG util.py:492:  (52/80): perl-constant-1.33-396.el8.noarch.rpm  186 kB/s |  24 kB     00:00    
-DEBUG util.py:492:  (53/80): perl-Unicode-Normalize-1.25-396.el8.x8 231 kB/s |  81 kB     00:00    
-DEBUG util.py:492:  (54/80): perl-libnet-3.11-3.el8.noarch.rpm      282 kB/s | 120 kB     00:00    
-DEBUG util.py:492:  (55/80): perl-macros-5.26.3-416.el8.x86_64.rpm  497 kB/s |  72 kB     00:00    
-DEBUG util.py:492:  (56/80): perl-parent-0.237-1.el8.noarch.rpm     181 kB/s |  19 kB     00:00    
-DEBUG util.py:492:  (57/80): perl-podlators-4.11-1.el8.noarch.rpm   668 kB/s | 117 kB     00:00    
-DEBUG util.py:492:  (58/80): perl-threads-2.21-2.el8.x86_64.rpm     728 kB/s |  60 kB     00:00    
-DEBUG util.py:492:  (59/80): perl-threads-shared-1.58-2.el8.x86_64. 545 kB/s |  46 kB     00:00    
-DEBUG util.py:492:  (60/80): pesign-0.112-25.0.1.el8.x86_64.rpm     723 kB/s | 180 kB     00:00    
-DEBUG util.py:492:  (61/80): perl-interpreter-5.26.3-416.el8.x86_64 4.6 MB/s | 6.3 MB     00:01    
-DEBUG util.py:492:  (62/80): zlib-devel-1.2.11-10.el8.x86_64.rpm    579 kB/s |  55 kB     00:00    
-DEBUG util.py:492:  (63/80): perl-libs-5.26.3-416.el8.x86_64.rpm    1.3 MB/s | 1.6 MB     00:01    
-DEBUG util.py:492:  (64/80): elfutils-libelf-devel-0.176-4.el8.x86_ 459 kB/s |  54 kB     00:00    
-DEBUG util.py:492:  (65/80): git-2.18.1-4.el8.x86_64.rpm            1.3 MB/s | 186 kB     00:00    
-DEBUG util.py:492:  (66/80): git-core-doc-2.18.1-4.el8.noarch.rpm   9.7 MB/s | 2.3 MB     00:00    
-DEBUG util.py:492:  (67/80): libcom_err-devel-1.44.6-3.el8.x86_64.r 322 kB/s |  38 kB     00:00    
-DEBUG util.py:492:  (68/80): krb5-devel-1.17-7.el8.x86_64.rpm       1.8 MB/s | 548 kB     00:00    
-DEBUG util.py:492:  (69/80): libkadm5-1.17-7.el8.x86_64.rpm         1.9 MB/s | 184 kB     00:00    
-DEBUG util.py:492:  (70/80): libselinux-devel-2.9-1.el8.x86_64.rpm  1.4 MB/s | 199 kB     00:00    
-DEBUG util.py:492:  (71/80): libsepol-devel-2.9-1.el8.x86_64.rpm    620 kB/s |  86 kB     00:00    
-DEBUG util.py:492:  (72/80): openssh-clients-8.0p1-2.el8.x86_64.rpm 8.1 MB/s | 700 kB     00:00    
-DEBUG util.py:492:  (73/80): openssh-8.0p1-2.el8.x86_64.rpm         2.2 MB/s | 520 kB     00:00    
-DEBUG util.py:492:  (74/80): openssl-1.1.1c-1.el8.x86_64.rpm        5.4 MB/s | 686 kB     00:00    
-DEBUG util.py:492:  (75/80): perl-Git-2.18.1-4.el8.noarch.rpm       1.0 MB/s |  77 kB     00:00    
-DEBUG util.py:492:  (76/80): perl-IO-Socket-SSL-2.066-2.el8.noarch. 3.8 MB/s | 297 kB     00:00    
-DEBUG util.py:492:  (77/80): perl-Net-SSLeay-1.88-1.el8.x86_64.rpm  4.7 MB/s | 379 kB     00:00    
-DEBUG util.py:492:  (78/80): perl-Socket-2.027-3.el8.x86_64.rpm     819 kB/s |  59 kB     00:00    
-DEBUG util.py:492:  (79/80): openssl-devel-1.1.1c-1.el8.x86_64.rpm  3.2 MB/s | 2.3 MB     00:00    
-DEBUG util.py:492:  (80/80): git-core-2.18.1-4.el8.x86_64.rpm       2.2 MB/s | 4.3 MB     00:02    
+DEBUG util.py:492:  (1/72): elfutils-libelf-devel-0.174-6.el8.x86_6 153 kB/s |  53 kB     00:00    
+DEBUG util.py:492:  (2/72): efivar-libs-36-1.el8.x86_64.rpm         231 kB/s |  96 kB     00:00    
+DEBUG util.py:492:  (3/72): libselinux-devel-2.8-6.module+el8+5159+ 470 kB/s | 198 kB     00:00    
+DEBUG util.py:492:  (4/72): fipscheck-1.5.0-4.el8.x86_64.rpm        372 kB/s |  26 kB     00:00    
+DEBUG util.py:492:  (5/72): emacs-filesystem-26.1-5.el8.noarch.rpm  481 kB/s |  68 kB     00:00    
+DEBUG util.py:492:  (6/72): fipscheck-lib-1.5.0-4.el8.x86_64.rpm    203 kB/s |  14 kB     00:00    
+DEBUG util.py:492:  (7/72): git-2.18.1-3.el8.x86_64.rpm             863 kB/s | 186 kB     00:00    
+DEBUG util.py:492:  (8/72): gnu-efi-3.0.8-2.el8.x86_64.rpm          982 kB/s |  71 kB     00:00    
+DEBUG util.py:492:  (9/72): gnu-efi-devel-3.0.8-2.el8.x86_64.rpm    751 kB/s | 110 kB     00:00    
+DEBUG util.py:492:  (10/72): groff-base-1.22.3-18.el8.x86_64.rpm    2.4 MB/s | 1.0 MB     00:00    
+DEBUG util.py:492:  (11/72): keyutils-libs-devel-1.5.10-6.el8.x86_6 631 kB/s |  47 kB     00:00    
+DEBUG util.py:492:  (12/72): git-core-2.18.1-3.el8.x86_64.rpm       3.8 MB/s | 4.1 MB     00:01    
+DEBUG util.py:492:  (13/72): less-530-1.el8.x86_64.rpm              2.1 MB/s | 163 kB     00:00    
+DEBUG util.py:492:  (14/72): krb5-devel-1.16.1-22.el8.x86_64.rpm    2.4 MB/s | 546 kB     00:00    
+DEBUG util.py:492:  (15/72): libcom_err-devel-1.44.3-2.el8.x86_64.r 525 kB/s |  37 kB     00:00    
+DEBUG util.py:492:  (16/72): libedit-3.1-23.20170329cvs.el8.x86_64. 890 kB/s | 101 kB     00:00    
+DEBUG util.py:492:  (17/72): libkadm5-1.16.1-22.el8.x86_64.rpm      2.4 MB/s | 184 kB     00:00    
+DEBUG util.py:492:  (18/72): libsecret-0.18.6-1.el8.x86_64.rpm      2.1 MB/s | 163 kB     00:00    
+DEBUG util.py:492:  (19/72): libsepol-devel-2.8-2.el8.x86_64.rpm    1.1 MB/s |  85 kB     00:00    
+DEBUG util.py:492:  (20/72): libverto-devel-0.3.0-5.el8.x86_64.rpm  231 kB/s |  17 kB     00:00    
+DEBUG util.py:492:  (21/72): git-core-doc-2.18.1-3.el8.noarch.rpm   1.6 MB/s | 2.3 MB     00:01    
+DEBUG util.py:492:  (22/72): nspr-4.21.0-2.el8_0.x86_64.rpm         1.1 MB/s | 143 kB     00:00    
+DEBUG util.py:492:  (23/72): nss-softokn-freebl-3.44.0-7.el8_0.x86_ 3.4 MB/s | 274 kB     00:00    
+DEBUG util.py:492:  (24/72): nss-3.44.0-7.el8_0.x86_64.rpm          3.1 MB/s | 722 kB     00:00    
+DEBUG util.py:492:  (25/72): nss-sysinit-3.44.0-7.el8_0.x86_64.rpm  840 kB/s |  69 kB     00:00    
+DEBUG util.py:492:  (26/72): nss-softokn-3.44.0-7.el8_0.x86_64.rpm  1.7 MB/s | 470 kB     00:00    
+DEBUG util.py:492:  (27/72): nss-util-3.44.0-7.el8_0.x86_64.rpm     961 kB/s | 134 kB     00:00    
+DEBUG util.py:492:  (28/72): nss-tools-3.44.0-7.el8_0.x86_64.rpm    2.5 MB/s | 569 kB     00:00    
+DEBUG util.py:492:  (29/72): openssh-clients-7.8p1-4.el8.x86_64.rpm 4.2 MB/s | 655 kB     00:00    
+DEBUG util.py:492:  (30/72): openssh-7.8p1-4.el8.x86_64.rpm         1.7 MB/s | 503 kB     00:00    
+DEBUG util.py:492:  (31/72): openssl-1.1.1-8.0.1.el8.x86_64.rpm     2.9 MB/s | 664 kB     00:00    
+DEBUG util.py:492:  (32/72): pcre2-utf16-10.32-1.el8.x86_64.rpm     2.9 MB/s | 228 kB     00:00    
+DEBUG util.py:492:  (33/72): pcre2-devel-10.32-1.el8.x86_64.rpm     2.6 MB/s | 605 kB     00:00    
+DEBUG util.py:492:  (34/72): pcre2-utf32-10.32-1.el8.x86_64.rpm     2.7 MB/s | 220 kB     00:00    
+DEBUG util.py:492:  (35/72): perl-Carp-1.42-396.el8.noarch.rpm      404 kB/s |  29 kB     00:00    
+DEBUG util.py:492:  (36/72): openssl-devel-1.1.1-8.0.1.el8.x86_64.r 5.1 MB/s | 2.3 MB     00:00    
+DEBUG util.py:492:  (37/72): perl-Errno-1.28-416.el8.x86_64.rpm     948 kB/s |  76 kB     00:00    
+DEBUG util.py:492:  (38/72): perl-Error-0.17025-2.el8.noarch.rpm    605 kB/s |  45 kB     00:00    
+DEBUG util.py:492:  (39/72): perl-Exporter-5.72-396.el8.noarch.rpm  437 kB/s |  33 kB     00:00    
+DEBUG util.py:492:  (40/72): perl-File-Path-2.15-2.el8.noarch.rpm   485 kB/s |  37 kB     00:00    
+DEBUG util.py:492:  (41/72): perl-File-Temp-0.230.600-1.el8.noarch. 560 kB/s |  61 kB     00:00    
+DEBUG util.py:492:  (42/72): perl-Encode-2.97-3.el8.x86_64.rpm      4.0 MB/s | 1.5 MB     00:00    
+DEBUG util.py:492:  (43/72): perl-Getopt-Long-2.50-4.el8.noarch.rpm 572 kB/s |  62 kB     00:00    
+DEBUG util.py:492:  (44/72): perl-Git-2.18.1-3.el8.noarch.rpm       691 kB/s |  77 kB     00:00    
+DEBUG util.py:492:  (45/72): perl-IO-1.38-416.el8.x86_64.rpm        1.2 MB/s | 141 kB     00:00    
+DEBUG util.py:492:  (46/72): perl-MIME-Base64-3.15-396.el8.x86_64.r 228 kB/s |  29 kB     00:00    
+DEBUG util.py:492:  (47/72): perl-Pod-Escapes-1.07-395.el8.noarch.r 243 kB/s |  19 kB     00:00    
+DEBUG util.py:492:  (48/72): perl-HTTP-Tiny-0.074-1.el8.noarch.rpm  202 kB/s |  57 kB     00:00    
+DEBUG util.py:492:  (49/72): perl-Pod-Perldoc-3.28-396.el8.noarch.r 1.2 MB/s |  87 kB     00:00    
+DEBUG util.py:492:  (50/72): perl-Pod-Usage-1.69-395.el8.noarch.rpm 303 kB/s |  33 kB     00:00    
+DEBUG util.py:492:  (51/72): perl-PathTools-3.74-1.el8.x86_64.rpm   253 kB/s |  89 kB     00:00    
+DEBUG util.py:492:  (52/72): perl-Scalar-List-Utils-1.49-2.el8.x86_ 663 kB/s |  67 kB     00:00    
+DEBUG util.py:492:  (53/72): perl-Pod-Simple-3.35-395.el8.noarch.rp 740 kB/s | 212 kB     00:00    
+DEBUG util.py:492:  (54/72): perl-Socket-2.027-2.el8.x86_64.rpm     394 kB/s |  58 kB     00:00    
+DEBUG util.py:492:  (55/72): perl-Storable-3.11-3.el8.x86_64.rpm    1.2 MB/s |  98 kB     00:00    
+DEBUG util.py:492:  (56/72): perl-Term-ANSIColor-4.06-396.el8.noarc 316 kB/s |  45 kB     00:00    
+DEBUG util.py:492:  (57/72): perl-Term-Cap-1.17-395.el8.noarch.rpm  153 kB/s |  22 kB     00:00    
+DEBUG util.py:492:  (58/72): perl-Text-ParseWords-3.30-395.el8.noar 128 kB/s |  17 kB     00:00    
+DEBUG util.py:492:  (59/72): perl-Text-Tabs+Wrap-2013.0523-395.el8. 185 kB/s |  24 kB     00:00    
+DEBUG util.py:492:  (60/72): perl-Time-Local-1.280-1.el8.noarch.rpm 417 kB/s |  32 kB     00:00    
+DEBUG util.py:492:  (61/72): perl-TermReadKey-2.37-7.el8.x86_64.rpm 140 kB/s |  39 kB     00:00    
+DEBUG util.py:492:  (62/72): perl-constant-1.33-396.el8.noarch.rpm  342 kB/s |  24 kB     00:00    
+DEBUG util.py:492:  (63/72): perl-Unicode-Normalize-1.25-396.el8.x8 548 kB/s |  81 kB     00:00    
+DEBUG util.py:492:  (64/72): perl-macros-5.26.3-416.el8.x86_64.rpm  507 kB/s |  72 kB     00:00    
+DEBUG util.py:492:  (65/72): perl-parent-0.237-1.el8.noarch.rpm     180 kB/s |  19 kB     00:00    
+DEBUG util.py:492:  (66/72): perl-podlators-4.11-1.el8.noarch.rpm   709 kB/s | 117 kB     00:00    
+DEBUG util.py:492:  (67/72): perl-threads-2.21-2.el8.x86_64.rpm     817 kB/s |  60 kB     00:00    
+DEBUG util.py:492:  (68/72): perl-threads-shared-1.58-2.el8.x86_64. 643 kB/s |  46 kB     00:00    
+DEBUG util.py:492:  (69/72): perl-libs-5.26.3-416.el8.x86_64.rpm    2.3 MB/s | 1.6 MB     00:00    
+DEBUG util.py:492:  (70/72): zlib-devel-1.2.11-10.el8.x86_64.rpm    611 kB/s |  55 kB     00:00    
+DEBUG util.py:492:  (71/72): pesign-0.112-25.0.1.el8.x86_64.rpm     741 kB/s | 180 kB     00:00    
+DEBUG util.py:492:  (72/72): perl-interpreter-5.26.3-416.el8.x86_64 2.8 MB/s | 6.3 MB     00:02    
 DEBUG util.py:492:  --------------------------------------------------------------------------------
-DEBUG util.py:492:  Total                                           4.7 MB/s |  30 MB     00:06     
+DEBUG util.py:492:  Total                                           4.5 MB/s |  28 MB     00:06     
 DEBUG util.py:492:  Running transaction check
 DEBUG util.py:492:  Transaction check succeeded.
 DEBUG util.py:492:  Running transaction test
@@ -349,352 +329,325 @@ DEBUG util.py:492:  Transaction test succeeded.
 DEBUG util.py:492:  Running transaction
 DEBUG util.py:492:    Preparing        :                                                        1/1 
 DEBUG util.py:492:  Installed: perl-Exporter-5.72-396.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Exporter-5.72-396.el8.noarch                     1/80 
+DEBUG util.py:492:    Installing       : perl-Exporter-5.72-396.el8.noarch                     1/72 
 DEBUG util.py:492:  Installed: perl-Exporter-5.72-396.el8.noarch
 DEBUG util.py:492:  Installed: perl-libs-4:5.26.3-416.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-libs-4:5.26.3-416.el8.x86_64                     2/80 
+DEBUG util.py:492:    Installing       : perl-libs-4:5.26.3-416.el8.x86_64                     2/72 
 DEBUG util.py:492:  Installed: perl-libs-4:5.26.3-416.el8.x86_64
 DEBUG util.py:492:  Installed: perl-Carp-1.42-396.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Carp-1.42-396.el8.noarch                         3/80 
+DEBUG util.py:492:    Installing       : perl-Carp-1.42-396.el8.noarch                         3/72 
 DEBUG util.py:492:  Installed: perl-Carp-1.42-396.el8.noarch
-DEBUG util.py:492:  Installed: perl-Scalar-List-Utils-3:1.49-2.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-Scalar-List-Utils-3:1.49-2.el8.x86_64            4/80 
-DEBUG util.py:492:  Installed: perl-Scalar-List-Utils-3:1.49-2.el8.x86_64
 DEBUG util.py:492:  Installed: nspr-4.21.0-2.el8_0.x86_64
-DEBUG util.py:492:    Installing       : nspr-4.21.0-2.el8_0.x86_64                            5/80 
-DEBUG util.py:492:    Running scriptlet: nspr-4.21.0-2.el8_0.x86_64                            5/80 
+DEBUG util.py:492:    Installing       : nspr-4.21.0-2.el8_0.x86_64                            4/72 
+DEBUG util.py:492:    Running scriptlet: nspr-4.21.0-2.el8_0.x86_64                            4/72 
 DEBUG util.py:492:  Installed: nspr-4.21.0-2.el8_0.x86_64
 DEBUG util.py:492:  Installed: nss-util-3.44.0-7.el8_0.x86_64
-DEBUG util.py:492:    Installing       : nss-util-3.44.0-7.el8_0.x86_64                        6/80 
+DEBUG util.py:492:    Installing       : nss-util-3.44.0-7.el8_0.x86_64                        5/72 
 DEBUG util.py:492:  Installed: nss-util-3.44.0-7.el8_0.x86_64
+DEBUG util.py:492:  Installed: perl-Scalar-List-Utils-3:1.49-2.el8.x86_64
+DEBUG util.py:492:    Installing       : perl-Scalar-List-Utils-3:1.49-2.el8.x86_64            6/72 
+DEBUG util.py:492:  Installed: perl-Scalar-List-Utils-3:1.49-2.el8.x86_64
 DEBUG util.py:492:  Installed: perl-parent-1:0.237-1.el8.noarch
-DEBUG util.py:492:    Installing       : perl-parent-1:0.237-1.el8.noarch                      7/80 
+DEBUG util.py:492:    Installing       : perl-parent-1:0.237-1.el8.noarch                      7/72 
 DEBUG util.py:492:  Installed: perl-parent-1:0.237-1.el8.noarch
 DEBUG util.py:492:  Installed: perl-Text-ParseWords-3.30-395.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Text-ParseWords-3.30-395.el8.noarch              8/80 
+DEBUG util.py:492:    Installing       : perl-Text-ParseWords-3.30-395.el8.noarch              8/72 
 DEBUG util.py:492:  Installed: perl-Text-ParseWords-3.30-395.el8.noarch
 DEBUG util.py:492:  Installed: zlib-devel-1.2.11-10.el8.x86_64
-DEBUG util.py:492:    Installing       : zlib-devel-1.2.11-10.el8.x86_64                       9/80 
+DEBUG util.py:492:    Installing       : zlib-devel-1.2.11-10.el8.x86_64                       9/72 
 DEBUG util.py:492:  Installed: zlib-devel-1.2.11-10.el8.x86_64
 DEBUG util.py:492:  Installed: nss-softokn-freebl-3.44.0-7.el8_0.x86_64
-DEBUG util.py:492:    Installing       : nss-softokn-freebl-3.44.0-7.el8_0.x86_64             10/80 
+DEBUG util.py:492:    Installing       : nss-softokn-freebl-3.44.0-7.el8_0.x86_64             10/72 
 DEBUG util.py:492:  Installed: nss-softokn-freebl-3.44.0-7.el8_0.x86_64
 DEBUG util.py:492:  Installed: nss-softokn-3.44.0-7.el8_0.x86_64
-DEBUG util.py:492:    Installing       : nss-softokn-3.44.0-7.el8_0.x86_64                    11/80 
+DEBUG util.py:492:    Installing       : nss-softokn-3.44.0-7.el8_0.x86_64                    11/72 
 DEBUG util.py:492:  Installed: nss-softokn-3.44.0-7.el8_0.x86_64
 DEBUG util.py:492:  Installed: nss-3.44.0-7.el8_0.x86_64
-DEBUG util.py:492:    Installing       : nss-3.44.0-7.el8_0.x86_64                            12/80 
-DEBUG util.py:492:    Running scriptlet: nss-3.44.0-7.el8_0.x86_64                            12/80 
+DEBUG util.py:492:    Installing       : nss-3.44.0-7.el8_0.x86_64                            12/72 
+DEBUG util.py:492:    Running scriptlet: nss-3.44.0-7.el8_0.x86_64                            12/72 
 DEBUG util.py:492:  Installed: nss-3.44.0-7.el8_0.x86_64
 DEBUG util.py:492:  Installed: nss-sysinit-3.44.0-7.el8_0.x86_64
-DEBUG util.py:492:    Installing       : nss-sysinit-3.44.0-7.el8_0.x86_64                    13/80 
+DEBUG util.py:492:    Installing       : nss-sysinit-3.44.0-7.el8_0.x86_64                    13/72 
 DEBUG util.py:492:  Installed: nss-sysinit-3.44.0-7.el8_0.x86_64
 DEBUG util.py:492:  Installed: nss-tools-3.44.0-7.el8_0.x86_64
-DEBUG util.py:492:    Installing       : nss-tools-3.44.0-7.el8_0.x86_64                      14/80 
+DEBUG util.py:492:    Installing       : nss-tools-3.44.0-7.el8_0.x86_64                      14/72 
 DEBUG util.py:492:  Installed: nss-tools-3.44.0-7.el8_0.x86_64
 DEBUG util.py:492:  Installed: perl-Term-ANSIColor-4.06-396.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Term-ANSIColor-4.06-396.el8.noarch              15/80 
+DEBUG util.py:492:    Installing       : perl-Term-ANSIColor-4.06-396.el8.noarch              15/72 
 DEBUG util.py:492:  Installed: perl-Term-ANSIColor-4.06-396.el8.noarch
 DEBUG util.py:492:  Installed: perl-macros-4:5.26.3-416.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-macros-4:5.26.3-416.el8.x86_64                  16/80 
+DEBUG util.py:492:    Installing       : perl-macros-4:5.26.3-416.el8.x86_64                  16/72 
 DEBUG util.py:492:  Installed: perl-macros-4:5.26.3-416.el8.x86_64
 DEBUG util.py:492:  Installed: perl-Errno-1.28-416.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-Errno-1.28-416.el8.x86_64                       17/80 
+DEBUG util.py:492:    Installing       : perl-Errno-1.28-416.el8.x86_64                       17/72 
 DEBUG util.py:492:  Installed: perl-Errno-1.28-416.el8.x86_64
+DEBUG util.py:492:  Installed: perl-Socket-4:2.027-2.el8.x86_64
+DEBUG util.py:492:    Installing       : perl-Socket-4:2.027-2.el8.x86_64                     18/72 
+DEBUG util.py:492:  Installed: perl-Socket-4:2.027-2.el8.x86_64
 DEBUG util.py:492:  Installed: perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch         18/80 
+DEBUG util.py:492:    Installing       : perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch         19/72 
 DEBUG util.py:492:  Installed: perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch
 DEBUG util.py:492:  Installed: perl-Unicode-Normalize-1.25-396.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-Unicode-Normalize-1.25-396.el8.x86_64           19/80 
+DEBUG util.py:492:    Installing       : perl-Unicode-Normalize-1.25-396.el8.x86_64           20/72 
 DEBUG util.py:492:  Installed: perl-Unicode-Normalize-1.25-396.el8.x86_64
 DEBUG util.py:492:  Installed: perl-File-Path-2.15-2.el8.noarch
-DEBUG util.py:492:    Installing       : perl-File-Path-2.15-2.el8.noarch                     20/80 
+DEBUG util.py:492:    Installing       : perl-File-Path-2.15-2.el8.noarch                     21/72 
 DEBUG util.py:492:  Installed: perl-File-Path-2.15-2.el8.noarch
+DEBUG util.py:492:  Installed: perl-IO-1.38-416.el8.x86_64
+DEBUG util.py:492:    Installing       : perl-IO-1.38-416.el8.x86_64                          22/72 
+DEBUG util.py:492:  Installed: perl-IO-1.38-416.el8.x86_64
 DEBUG util.py:492:  Installed: perl-PathTools-3.74-1.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-PathTools-3.74-1.el8.x86_64                     21/80 
+DEBUG util.py:492:    Installing       : perl-PathTools-3.74-1.el8.x86_64                     23/72 
 DEBUG util.py:492:  Installed: perl-PathTools-3.74-1.el8.x86_64
 DEBUG util.py:492:  Installed: perl-constant-1.33-396.el8.noarch
-DEBUG util.py:492:    Installing       : perl-constant-1.33-396.el8.noarch                    22/80 
+DEBUG util.py:492:    Installing       : perl-constant-1.33-396.el8.noarch                    24/72 
 DEBUG util.py:492:  Installed: perl-constant-1.33-396.el8.noarch
-DEBUG util.py:492:  Installed: perl-threads-shared-1.58-2.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-threads-shared-1.58-2.el8.x86_64                23/80 
-DEBUG util.py:492:  Installed: perl-threads-shared-1.58-2.el8.x86_64
 DEBUG util.py:492:  Installed: perl-threads-1:2.21-2.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-threads-1:2.21-2.el8.x86_64                     24/80 
+DEBUG util.py:492:    Installing       : perl-threads-1:2.21-2.el8.x86_64                     25/72 
 DEBUG util.py:492:  Installed: perl-threads-1:2.21-2.el8.x86_64
+DEBUG util.py:492:  Installed: perl-threads-shared-1.58-2.el8.x86_64
+DEBUG util.py:492:    Installing       : perl-threads-shared-1.58-2.el8.x86_64                26/72 
+DEBUG util.py:492:  Installed: perl-threads-shared-1.58-2.el8.x86_64
 DEBUG util.py:492:  Installed: perl-interpreter-4:5.26.3-416.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-interpreter-4:5.26.3-416.el8.x86_64             25/80 
+DEBUG util.py:492:    Installing       : perl-interpreter-4:5.26.3-416.el8.x86_64             27/72 
 DEBUG util.py:492:  Installed: perl-interpreter-4:5.26.3-416.el8.x86_64
-DEBUG util.py:492:  Installed: perl-Socket-4:2.027-3.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-Socket-4:2.027-3.el8.x86_64                     26/80 
-DEBUG util.py:492:  Installed: perl-Socket-4:2.027-3.el8.x86_64
-DEBUG util.py:492:  Installed: perl-IO-1.38-416.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-IO-1.38-416.el8.x86_64                          27/80 
-DEBUG util.py:492:  Installed: perl-IO-1.38-416.el8.x86_64
+DEBUG util.py:492:  Installed: perl-File-Temp-0.230.600-1.el8.noarch
+DEBUG util.py:492:    Installing       : perl-File-Temp-0.230.600-1.el8.noarch                28/72 
+DEBUG util.py:492:  Installed: perl-File-Temp-0.230.600-1.el8.noarch
 DEBUG util.py:492:  Installed: perl-MIME-Base64-3.15-396.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-MIME-Base64-3.15-396.el8.x86_64                 28/80 
+DEBUG util.py:492:    Installing       : perl-MIME-Base64-3.15-396.el8.x86_64                 29/72 
 DEBUG util.py:492:  Installed: perl-MIME-Base64-3.15-396.el8.x86_64
 DEBUG util.py:492:  Installed: perl-Time-Local-1:1.280-1.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Time-Local-1:1.280-1.el8.noarch                 29/80 
+DEBUG util.py:492:    Installing       : perl-Time-Local-1:1.280-1.el8.noarch                 30/72 
 DEBUG util.py:492:  Installed: perl-Time-Local-1:1.280-1.el8.noarch
 DEBUG util.py:492:  Installed: perl-HTTP-Tiny-0.074-1.el8.noarch
-DEBUG util.py:492:    Installing       : perl-HTTP-Tiny-0.074-1.el8.noarch                    30/80 
+DEBUG util.py:492:    Installing       : perl-HTTP-Tiny-0.074-1.el8.noarch                    31/72 
 DEBUG util.py:492:  Installed: perl-HTTP-Tiny-0.074-1.el8.noarch
-DEBUG util.py:492:  Installed: perl-File-Temp-0.230.600-1.el8.noarch
-DEBUG util.py:492:    Installing       : perl-File-Temp-0.230.600-1.el8.noarch                31/80 
-DEBUG util.py:492:  Installed: perl-File-Temp-0.230.600-1.el8.noarch
-DEBUG util.py:492:  Installed: perl-IO-Socket-IP-0.39-5.el8.noarch
-DEBUG util.py:492:    Installing       : perl-IO-Socket-IP-0.39-5.el8.noarch                  32/80 
-DEBUG util.py:492:  Installed: perl-IO-Socket-IP-0.39-5.el8.noarch
-DEBUG util.py:492:  Installed: perl-Digest-1.17-395.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Digest-1.17-395.el8.noarch                      33/80 
-DEBUG util.py:492:  Installed: perl-Digest-1.17-395.el8.noarch
-DEBUG util.py:492:  Installed: perl-Digest-MD5-2.55-396.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-Digest-MD5-2.55-396.el8.x86_64                  34/80 
-DEBUG util.py:492:  Installed: perl-Digest-MD5-2.55-396.el8.x86_64
-DEBUG util.py:492:  Installed: perl-libnet-3.11-3.el8.noarch
-DEBUG util.py:492:    Installing       : perl-libnet-3.11-3.el8.noarch                        35/80 
-DEBUG util.py:492:  Installed: perl-libnet-3.11-3.el8.noarch
-DEBUG util.py:492:  Installed: perl-Net-SSLeay-1.88-1.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-Net-SSLeay-1.88-1.el8.x86_64                    36/80 
-DEBUG util.py:492:  Installed: perl-Net-SSLeay-1.88-1.el8.x86_64
-DEBUG util.py:492:  Installed: perl-Storable-1:3.11-3.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-Storable-1:3.11-3.el8.x86_64                    37/80 
-DEBUG util.py:492:  Installed: perl-Storable-1:3.11-3.el8.x86_64
-DEBUG util.py:492:  Installed: perl-Data-Dumper-2.167-399.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-Data-Dumper-2.167-399.el8.x86_64                38/80 
-DEBUG util.py:492:  Installed: perl-Data-Dumper-2.167-399.el8.x86_64
 DEBUG util.py:492:  Installed: perl-Error-1:0.17025-2.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Error-1:0.17025-2.el8.noarch                    39/80 
+DEBUG util.py:492:    Installing       : perl-Error-1:0.17025-2.el8.noarch                    32/72 
 DEBUG util.py:492:  Installed: perl-Error-1:0.17025-2.el8.noarch
 DEBUG util.py:492:  Installed: perl-Pod-Escapes-1:1.07-395.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Pod-Escapes-1:1.07-395.el8.noarch               40/80 
+DEBUG util.py:492:    Installing       : perl-Pod-Escapes-1:1.07-395.el8.noarch               33/72 
 DEBUG util.py:492:  Installed: perl-Pod-Escapes-1:1.07-395.el8.noarch
+DEBUG util.py:492:  Installed: perl-Storable-1:3.11-3.el8.x86_64
+DEBUG util.py:492:    Installing       : perl-Storable-1:3.11-3.el8.x86_64                    34/72 
+DEBUG util.py:492:  Installed: perl-Storable-1:3.11-3.el8.x86_64
 DEBUG util.py:492:  Installed: perl-Term-Cap-1.17-395.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Term-Cap-1.17-395.el8.noarch                    41/80 
+DEBUG util.py:492:    Installing       : perl-Term-Cap-1.17-395.el8.noarch                    35/72 
 DEBUG util.py:492:  Installed: perl-Term-Cap-1.17-395.el8.noarch
 DEBUG util.py:492:  Installed: perl-TermReadKey-2.37-7.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-TermReadKey-2.37-7.el8.x86_64                   42/80 
+DEBUG util.py:492:    Installing       : perl-TermReadKey-2.37-7.el8.x86_64                   36/72 
 DEBUG util.py:492:  Installed: perl-TermReadKey-2.37-7.el8.x86_64
 DEBUG util.py:492:  Installed: fipscheck-lib-1.5.0-4.el8.x86_64
-DEBUG util.py:492:    Installing       : fipscheck-lib-1.5.0-4.el8.x86_64                     43/80 
-DEBUG util.py:492:    Running scriptlet: fipscheck-lib-1.5.0-4.el8.x86_64                     43/80 
+DEBUG util.py:492:    Installing       : fipscheck-lib-1.5.0-4.el8.x86_64                     37/72 
+DEBUG util.py:492:    Running scriptlet: fipscheck-lib-1.5.0-4.el8.x86_64                     37/72 
 DEBUG util.py:492:  Installed: fipscheck-lib-1.5.0-4.el8.x86_64
 DEBUG util.py:492:  Installed: fipscheck-1.5.0-4.el8.x86_64
-DEBUG util.py:492:    Installing       : fipscheck-1.5.0-4.el8.x86_64                         44/80 
+DEBUG util.py:492:    Installing       : fipscheck-1.5.0-4.el8.x86_64                         38/72 
 DEBUG util.py:492:  Installed: fipscheck-1.5.0-4.el8.x86_64
-DEBUG util.py:492:  Installed: openssh-8.0p1-2.el8.x86_64
-DEBUG util.py:492:    Running scriptlet: openssh-8.0p1-2.el8.x86_64                           45/80 
-DEBUG util.py:492:    Installing       : openssh-8.0p1-2.el8.x86_64                           45/80 
-DEBUG util.py:492:  Installed: openssh-8.0p1-2.el8.x86_64
-DEBUG util.py:492:  Installed: openssl-1:1.1.1c-1.el8.x86_64
-DEBUG util.py:492:    Installing       : openssl-1:1.1.1c-1.el8.x86_64                        46/80 
-DEBUG util.py:492:  Installed: openssl-1:1.1.1c-1.el8.x86_64
-DEBUG util.py:492:  Installed: libsepol-devel-2.9-1.el8.x86_64
-DEBUG util.py:492:    Installing       : libsepol-devel-2.9-1.el8.x86_64                      47/80 
-DEBUG util.py:492:  Installed: libsepol-devel-2.9-1.el8.x86_64
-DEBUG util.py:492:  Installed: libkadm5-1.17-7.el8.x86_64
-DEBUG util.py:492:    Installing       : libkadm5-1.17-7.el8.x86_64                           48/80 
-DEBUG util.py:492:  Installed: libkadm5-1.17-7.el8.x86_64
-DEBUG util.py:492:  Installed: libcom_err-devel-1.44.6-3.el8.x86_64
-DEBUG util.py:492:    Installing       : libcom_err-devel-1.44.6-3.el8.x86_64                 49/80 
-DEBUG util.py:492:  Installed: libcom_err-devel-1.44.6-3.el8.x86_64
+DEBUG util.py:492:  Installed: openssh-7.8p1-4.el8.x86_64
+DEBUG util.py:492:    Running scriptlet: openssh-7.8p1-4.el8.x86_64                           39/72 
+DEBUG util.py:492:    Installing       : openssh-7.8p1-4.el8.x86_64                           39/72 
+DEBUG util.py:492:  Installed: openssh-7.8p1-4.el8.x86_64
 DEBUG util.py:492:  Installed: pcre2-utf32-10.32-1.el8.x86_64
-DEBUG util.py:492:    Installing       : pcre2-utf32-10.32-1.el8.x86_64                       50/80 
+DEBUG util.py:492:    Installing       : pcre2-utf32-10.32-1.el8.x86_64                       40/72 
 DEBUG util.py:492:  Installed: pcre2-utf32-10.32-1.el8.x86_64
 DEBUG util.py:492:  Installed: pcre2-utf16-10.32-1.el8.x86_64
-DEBUG util.py:492:    Installing       : pcre2-utf16-10.32-1.el8.x86_64                       51/80 
+DEBUG util.py:492:    Installing       : pcre2-utf16-10.32-1.el8.x86_64                       41/72 
 DEBUG util.py:492:  Installed: pcre2-utf16-10.32-1.el8.x86_64
 DEBUG util.py:492:  Installed: pcre2-devel-10.32-1.el8.x86_64
-DEBUG util.py:492:    Installing       : pcre2-devel-10.32-1.el8.x86_64                       52/80 
+DEBUG util.py:492:    Installing       : pcre2-devel-10.32-1.el8.x86_64                       42/72 
 DEBUG util.py:492:  Installed: pcre2-devel-10.32-1.el8.x86_64
-DEBUG util.py:492:  Installed: libselinux-devel-2.9-1.el8.x86_64
-DEBUG util.py:492:    Installing       : libselinux-devel-2.9-1.el8.x86_64                    53/80 
-DEBUG util.py:492:  Installed: libselinux-devel-2.9-1.el8.x86_64
 DEBUG util.py:492:  Installed: libverto-devel-0.3.0-5.el8.x86_64
-DEBUG util.py:492:    Installing       : libverto-devel-0.3.0-5.el8.x86_64                    54/80 
+DEBUG util.py:492:    Installing       : libverto-devel-0.3.0-5.el8.x86_64                    43/72 
 DEBUG util.py:492:  Installed: libverto-devel-0.3.0-5.el8.x86_64
+DEBUG util.py:492:  Installed: libsepol-devel-2.8-2.el8.x86_64
+DEBUG util.py:492:    Installing       : libsepol-devel-2.8-2.el8.x86_64                      44/72 
+DEBUG util.py:492:  Installed: libsepol-devel-2.8-2.el8.x86_64
+DEBUG util.py:492:  Installed: libselinux-devel-2.8-6.module+el8+5159+1f46f18f.x86_64
+DEBUG util.py:492:    Installing       : libselinux-devel-2.8-6.module+el8+5159+1f46f18f.x8   45/72 
+DEBUG util.py:492:  Installed: libselinux-devel-2.8-6.module+el8+5159+1f46f18f.x86_64
+DEBUG util.py:492:  Installed: libsecret-0.18.6-1.el8.x86_64
+DEBUG util.py:492:    Installing       : libsecret-0.18.6-1.el8.x86_64                        46/72 
+DEBUG util.py:492:  Installed: libsecret-0.18.6-1.el8.x86_64
+DEBUG util.py:492:  Installed: libkadm5-1.16.1-22.el8.x86_64
+DEBUG util.py:492:    Installing       : libkadm5-1.16.1-22.el8.x86_64                        47/72 
+DEBUG util.py:492:  Installed: libkadm5-1.16.1-22.el8.x86_64
 DEBUG util.py:492:  Installed: libedit-3.1-23.20170329cvs.el8.x86_64
-DEBUG util.py:492:    Installing       : libedit-3.1-23.20170329cvs.el8.x86_64                55/80 
+DEBUG util.py:492:    Installing       : libedit-3.1-23.20170329cvs.el8.x86_64                48/72 
 DEBUG util.py:492:  Installed: libedit-3.1-23.20170329cvs.el8.x86_64
-DEBUG util.py:492:  Installed: openssh-clients-8.0p1-2.el8.x86_64
-DEBUG util.py:492:    Installing       : openssh-clients-8.0p1-2.el8.x86_64                   56/80 
-DEBUG util.py:492:  Installed: openssh-clients-8.0p1-2.el8.x86_64
+DEBUG util.py:492:  Installed: openssh-clients-7.8p1-4.el8.x86_64
+DEBUG util.py:492:    Installing       : openssh-clients-7.8p1-4.el8.x86_64                   49/72 
+DEBUG util.py:492:  Installed: openssh-clients-7.8p1-4.el8.x86_64
+DEBUG util.py:492:  Installed: libcom_err-devel-1.44.3-2.el8.x86_64
+DEBUG util.py:492:    Installing       : libcom_err-devel-1.44.3-2.el8.x86_64                 50/72 
+DEBUG util.py:492:  Installed: libcom_err-devel-1.44.3-2.el8.x86_64
 DEBUG util.py:492:  Installed: less-530-1.el8.x86_64
-DEBUG util.py:492:    Installing       : less-530-1.el8.x86_64                                57/80 
+DEBUG util.py:492:    Installing       : less-530-1.el8.x86_64                                51/72 
 DEBUG util.py:492:  Installed: less-530-1.el8.x86_64
-DEBUG util.py:492:  Installed: git-core-2.18.1-4.el8.x86_64
-DEBUG util.py:492:    Installing       : git-core-2.18.1-4.el8.x86_64                         58/80 
-DEBUG util.py:492:  Installed: git-core-2.18.1-4.el8.x86_64
-DEBUG util.py:492:  Installed: git-core-doc-2.18.1-4.el8.noarch
-DEBUG util.py:492:    Installing       : git-core-doc-2.18.1-4.el8.noarch                     59/80 
-DEBUG util.py:492:  Installed: git-core-doc-2.18.1-4.el8.noarch
+DEBUG util.py:492:  Installed: git-core-2.18.1-3.el8.x86_64
+DEBUG util.py:492:    Installing       : git-core-2.18.1-3.el8.x86_64                         52/72 
+DEBUG util.py:492:  Installed: git-core-2.18.1-3.el8.x86_64
+DEBUG util.py:492:  Installed: git-core-doc-2.18.1-3.el8.noarch
+DEBUG util.py:492:    Installing       : git-core-doc-2.18.1-3.el8.noarch                     53/72 
+DEBUG util.py:492:  Installed: git-core-doc-2.18.1-3.el8.noarch
 DEBUG util.py:492:  Installed: keyutils-libs-devel-1.5.10-6.el8.x86_64
-DEBUG util.py:492:    Installing       : keyutils-libs-devel-1.5.10-6.el8.x86_64              60/80 
+DEBUG util.py:492:    Installing       : keyutils-libs-devel-1.5.10-6.el8.x86_64              54/72 
 DEBUG util.py:492:  Installed: keyutils-libs-devel-1.5.10-6.el8.x86_64
-DEBUG util.py:492:  Installed: krb5-devel-1.17-7.el8.x86_64
-DEBUG util.py:492:    Installing       : krb5-devel-1.17-7.el8.x86_64                         61/80 
-DEBUG util.py:492:  Installed: krb5-devel-1.17-7.el8.x86_64
+DEBUG util.py:492:  Installed: krb5-devel-1.16.1-22.el8.x86_64
+DEBUG util.py:492:    Installing       : krb5-devel-1.16.1-22.el8.x86_64                      55/72 
+DEBUG util.py:492:  Installed: krb5-devel-1.16.1-22.el8.x86_64
 DEBUG util.py:492:  Installed: groff-base-1.22.3-18.el8.x86_64
-DEBUG util.py:492:    Installing       : groff-base-1.22.3-18.el8.x86_64                      62/80 
+DEBUG util.py:492:    Installing       : groff-base-1.22.3-18.el8.x86_64                      56/72 
 DEBUG util.py:492:  Installed: groff-base-1.22.3-18.el8.x86_64
 DEBUG util.py:492:  Installed: perl-Encode-4:2.97-3.el8.x86_64
-DEBUG util.py:492:    Installing       : perl-Encode-4:2.97-3.el8.x86_64                      63/80 
+DEBUG util.py:492:    Installing       : perl-Encode-4:2.97-3.el8.x86_64                      57/72 
 DEBUG util.py:492:  Installed: perl-Encode-4:2.97-3.el8.x86_64
 DEBUG util.py:492:  Installed: perl-Pod-Simple-1:3.35-395.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Pod-Simple-1:3.35-395.el8.noarch                64/80 
+DEBUG util.py:492:    Installing       : perl-Pod-Simple-1:3.35-395.el8.noarch                58/72 
 DEBUG util.py:492:  Installed: perl-Pod-Simple-1:3.35-395.el8.noarch
 DEBUG util.py:492:  Installed: perl-Getopt-Long-1:2.50-4.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Getopt-Long-1:2.50-4.el8.noarch                 65/80 
+DEBUG util.py:492:    Installing       : perl-Getopt-Long-1:2.50-4.el8.noarch                 59/72 
 DEBUG util.py:492:  Installed: perl-Getopt-Long-1:2.50-4.el8.noarch
 DEBUG util.py:492:  Installed: perl-podlators-4.11-1.el8.noarch
-DEBUG util.py:492:    Installing       : perl-podlators-4.11-1.el8.noarch                     66/80 
+DEBUG util.py:492:    Installing       : perl-podlators-4.11-1.el8.noarch                     60/72 
 DEBUG util.py:492:  Installed: perl-podlators-4.11-1.el8.noarch
 DEBUG util.py:492:  Installed: perl-Pod-Perldoc-3.28-396.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Pod-Perldoc-3.28-396.el8.noarch                 67/80 
+DEBUG util.py:492:    Installing       : perl-Pod-Perldoc-3.28-396.el8.noarch                 61/72 
 DEBUG util.py:492:  Installed: perl-Pod-Perldoc-3.28-396.el8.noarch
 DEBUG util.py:492:  Installed: perl-Pod-Usage-4:1.69-395.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Pod-Usage-4:1.69-395.el8.noarch                 68/80 
+DEBUG util.py:492:    Installing       : perl-Pod-Usage-4:1.69-395.el8.noarch                 62/72 
 DEBUG util.py:492:  Installed: perl-Pod-Usage-4:1.69-395.el8.noarch
-DEBUG util.py:492:  Installed: perl-URI-1.73-3.el8.noarch
-DEBUG util.py:492:    Installing       : perl-URI-1.73-3.el8.noarch                           69/80 
-DEBUG util.py:492:  Installed: perl-URI-1.73-3.el8.noarch
-DEBUG util.py:492:  Installed: gnu-efi-1:3.0.8-2.0.1.el8.x86_64
-DEBUG util.py:492:    Installing       : gnu-efi-1:3.0.8-2.0.1.el8.x86_64                     70/80 
-DEBUG util.py:492:  Installed: gnu-efi-1:3.0.8-2.0.1.el8.x86_64
+DEBUG util.py:492:  Installed: gnu-efi-1:3.0.8-2.el8.x86_64
+DEBUG util.py:492:    Installing       : gnu-efi-1:3.0.8-2.el8.x86_64                         63/72 
+DEBUG util.py:492:  Installed: gnu-efi-1:3.0.8-2.el8.x86_64
 DEBUG util.py:492:  Installed: emacs-filesystem-1:26.1-5.el8.noarch
-DEBUG util.py:492:    Installing       : emacs-filesystem-1:26.1-5.el8.noarch                 71/80 
+DEBUG util.py:492:    Installing       : emacs-filesystem-1:26.1-5.el8.noarch                 64/72 
 DEBUG util.py:492:  Installed: emacs-filesystem-1:26.1-5.el8.noarch
-DEBUG util.py:492:  Installed: perl-Git-2.18.1-4.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Git-2.18.1-4.el8.noarch                         72/80 
-DEBUG util.py:492:  Installed: perl-Git-2.18.1-4.el8.noarch
-DEBUG util.py:492:  Installed: git-2.18.1-4.el8.x86_64
-DEBUG util.py:492:    Installing       : git-2.18.1-4.el8.x86_64                              73/80 
-DEBUG util.py:492:  Installed: git-2.18.1-4.el8.x86_64
+DEBUG util.py:492:  Installed: perl-Git-2.18.1-3.el8.noarch
+DEBUG util.py:492:    Installing       : perl-Git-2.18.1-3.el8.noarch                         65/72 
+DEBUG util.py:492:  Installed: perl-Git-2.18.1-3.el8.noarch
+DEBUG util.py:492:  Installed: git-2.18.1-3.el8.x86_64
+DEBUG util.py:492:    Installing       : git-2.18.1-3.el8.x86_64                              66/72 
+DEBUG util.py:492:  Installed: git-2.18.1-3.el8.x86_64
 DEBUG util.py:492:  Installed: efivar-libs-36-1.el8.x86_64
-DEBUG util.py:492:    Installing       : efivar-libs-36-1.el8.x86_64                          74/80 
-DEBUG util.py:492:    Running scriptlet: efivar-libs-36-1.el8.x86_64                          74/80 
+DEBUG util.py:492:    Installing       : efivar-libs-36-1.el8.x86_64                          67/72 
+DEBUG util.py:492:    Running scriptlet: efivar-libs-36-1.el8.x86_64                          67/72 
 DEBUG util.py:492:  Installed: efivar-libs-36-1.el8.x86_64
 DEBUG util.py:492:  Installed: pesign-0.112-25.0.1.el8.x86_64
-DEBUG util.py:492:    Running scriptlet: pesign-0.112-25.0.1.el8.x86_64                       75/80 
-DEBUG util.py:492:    Installing       : pesign-0.112-25.0.1.el8.x86_64                       75/80 
-DEBUG util.py:492:    Running scriptlet: pesign-0.112-25.0.1.el8.x86_64                       75/80 
+DEBUG util.py:492:    Running scriptlet: pesign-0.112-25.0.1.el8.x86_64                       68/72 
+DEBUG util.py:492:    Installing       : pesign-0.112-25.0.1.el8.x86_64                       68/72 
+DEBUG util.py:492:    Running scriptlet: pesign-0.112-25.0.1.el8.x86_64                       68/72 
 DEBUG util.py:492:  Installed: pesign-0.112-25.0.1.el8.x86_64
-DEBUG util.py:492:  Installed: gnu-efi-devel-1:3.0.8-2.0.1.el8.x86_64
-DEBUG util.py:492:    Installing       : gnu-efi-devel-1:3.0.8-2.0.1.el8.x86_64               76/80 
-DEBUG util.py:492:  Installed: gnu-efi-devel-1:3.0.8-2.0.1.el8.x86_64
-DEBUG util.py:492:  Installed: perl-IO-Socket-SSL-2.066-2.el8.noarch
-DEBUG util.py:492:    Installing       : perl-IO-Socket-SSL-2.066-2.el8.noarch                77/80 
-DEBUG util.py:492:  Installed: perl-IO-Socket-SSL-2.066-2.el8.noarch
-DEBUG util.py:492:  Installed: openssl-devel-1:1.1.1c-1.el8.x86_64
-DEBUG util.py:492:    Installing       : openssl-devel-1:1.1.1c-1.el8.x86_64                  78/80 
-DEBUG util.py:492:  Installed: openssl-devel-1:1.1.1c-1.el8.x86_64
-DEBUG util.py:492:  Installed: perl-Mozilla-CA-20160104-7.el8.noarch
-DEBUG util.py:492:    Installing       : perl-Mozilla-CA-20160104-7.el8.noarch                79/80 
-DEBUG util.py:492:  Installed: perl-Mozilla-CA-20160104-7.el8.noarch
-DEBUG util.py:492:  Installed: elfutils-libelf-devel-0.176-4.el8.x86_64
-DEBUG util.py:492:    Installing       : elfutils-libelf-devel-0.176-4.el8.x86_64             80/80 
-DEBUG util.py:492:  Installed: elfutils-libelf-devel-0.176-4.el8.x86_64
-DEBUG util.py:492:    Running scriptlet: elfutils-libelf-devel-0.176-4.el8.x86_64             80/80 
-DEBUG util.py:492:    Verifying        : efivar-libs-36-1.el8.x86_64                           1/80 
-DEBUG util.py:492:    Verifying        : emacs-filesystem-1:26.1-5.el8.noarch                  2/80 
-DEBUG util.py:492:    Verifying        : fipscheck-1.5.0-4.el8.x86_64                          3/80 
-DEBUG util.py:492:    Verifying        : fipscheck-lib-1.5.0-4.el8.x86_64                      4/80 
-DEBUG util.py:492:    Verifying        : gnu-efi-1:3.0.8-2.0.1.el8.x86_64                      5/80 
-DEBUG util.py:492:    Verifying        : gnu-efi-devel-1:3.0.8-2.0.1.el8.x86_64                6/80 
-DEBUG util.py:492:    Verifying        : groff-base-1.22.3-18.el8.x86_64                       7/80 
-DEBUG util.py:492:    Verifying        : keyutils-libs-devel-1.5.10-6.el8.x86_64               8/80 
-DEBUG util.py:492:    Verifying        : less-530-1.el8.x86_64                                 9/80 
-DEBUG util.py:492:    Verifying        : libedit-3.1-23.20170329cvs.el8.x86_64                10/80 
-DEBUG util.py:492:    Verifying        : libverto-devel-0.3.0-5.el8.x86_64                    11/80 
-DEBUG util.py:492:    Verifying        : nspr-4.21.0-2.el8_0.x86_64                           12/80 
-DEBUG util.py:492:    Verifying        : nss-3.44.0-7.el8_0.x86_64                            13/80 
-DEBUG util.py:492:    Verifying        : nss-softokn-3.44.0-7.el8_0.x86_64                    14/80 
-DEBUG util.py:492:    Verifying        : nss-softokn-freebl-3.44.0-7.el8_0.x86_64             15/80 
-DEBUG util.py:492:    Verifying        : nss-sysinit-3.44.0-7.el8_0.x86_64                    16/80 
-DEBUG util.py:492:    Verifying        : nss-tools-3.44.0-7.el8_0.x86_64                      17/80 
-DEBUG util.py:492:    Verifying        : nss-util-3.44.0-7.el8_0.x86_64                       18/80 
-DEBUG util.py:492:    Verifying        : pcre2-devel-10.32-1.el8.x86_64                       19/80 
-DEBUG util.py:492:    Verifying        : pcre2-utf16-10.32-1.el8.x86_64                       20/80 
-DEBUG util.py:492:    Verifying        : pcre2-utf32-10.32-1.el8.x86_64                       21/80 
-DEBUG util.py:492:    Verifying        : perl-Carp-1.42-396.el8.noarch                        22/80 
-DEBUG util.py:492:    Verifying        : perl-Data-Dumper-2.167-399.el8.x86_64                23/80 
-DEBUG util.py:492:    Verifying        : perl-Digest-1.17-395.el8.noarch                      24/80 
-DEBUG util.py:492:    Verifying        : perl-Digest-MD5-2.55-396.el8.x86_64                  25/80 
-DEBUG util.py:492:    Verifying        : perl-Encode-4:2.97-3.el8.x86_64                      26/80 
-DEBUG util.py:492:    Verifying        : perl-Errno-1.28-416.el8.x86_64                       27/80 
-DEBUG util.py:492:    Verifying        : perl-Error-1:0.17025-2.el8.noarch                    28/80 
-DEBUG util.py:492:    Verifying        : perl-Exporter-5.72-396.el8.noarch                    29/80 
-DEBUG util.py:492:    Verifying        : perl-File-Path-2.15-2.el8.noarch                     30/80 
-DEBUG util.py:492:    Verifying        : perl-File-Temp-0.230.600-1.el8.noarch                31/80 
-DEBUG util.py:492:    Verifying        : perl-Getopt-Long-1:2.50-4.el8.noarch                 32/80 
-DEBUG util.py:492:    Verifying        : perl-HTTP-Tiny-0.074-1.el8.noarch                    33/80 
-DEBUG util.py:492:    Verifying        : perl-IO-1.38-416.el8.x86_64                          34/80 
-DEBUG util.py:492:    Verifying        : perl-IO-Socket-IP-0.39-5.el8.noarch                  35/80 
-DEBUG util.py:492:    Verifying        : perl-MIME-Base64-3.15-396.el8.x86_64                 36/80 
-DEBUG util.py:492:    Verifying        : perl-Mozilla-CA-20160104-7.el8.noarch                37/80 
-DEBUG util.py:492:    Verifying        : perl-PathTools-3.74-1.el8.x86_64                     38/80 
-DEBUG util.py:492:    Verifying        : perl-Pod-Escapes-1:1.07-395.el8.noarch               39/80 
-DEBUG util.py:492:    Verifying        : perl-Pod-Perldoc-3.28-396.el8.noarch                 40/80 
-DEBUG util.py:492:    Verifying        : perl-Pod-Simple-1:3.35-395.el8.noarch                41/80 
-DEBUG util.py:492:    Verifying        : perl-Pod-Usage-4:1.69-395.el8.noarch                 42/80 
-DEBUG util.py:492:    Verifying        : perl-Scalar-List-Utils-3:1.49-2.el8.x86_64           43/80 
-DEBUG util.py:492:    Verifying        : perl-Storable-1:3.11-3.el8.x86_64                    44/80 
-DEBUG util.py:492:    Verifying        : perl-Term-ANSIColor-4.06-396.el8.noarch              45/80 
-DEBUG util.py:492:    Verifying        : perl-Term-Cap-1.17-395.el8.noarch                    46/80 
-DEBUG util.py:492:    Verifying        : perl-TermReadKey-2.37-7.el8.x86_64                   47/80 
-DEBUG util.py:492:    Verifying        : perl-Text-ParseWords-3.30-395.el8.noarch             48/80 
-DEBUG util.py:492:    Verifying        : perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch         49/80 
-DEBUG util.py:492:    Verifying        : perl-Time-Local-1:1.280-1.el8.noarch                 50/80 
-DEBUG util.py:492:    Verifying        : perl-URI-1.73-3.el8.noarch                           51/80 
-DEBUG util.py:492:    Verifying        : perl-Unicode-Normalize-1.25-396.el8.x86_64           52/80 
-DEBUG util.py:492:    Verifying        : perl-constant-1.33-396.el8.noarch                    53/80 
-DEBUG util.py:492:    Verifying        : perl-interpreter-4:5.26.3-416.el8.x86_64             54/80 
-DEBUG util.py:492:    Verifying        : perl-libnet-3.11-3.el8.noarch                        55/80 
-DEBUG util.py:492:    Verifying        : perl-libs-4:5.26.3-416.el8.x86_64                    56/80 
-DEBUG util.py:492:    Verifying        : perl-macros-4:5.26.3-416.el8.x86_64                  57/80 
-DEBUG util.py:492:    Verifying        : perl-parent-1:0.237-1.el8.noarch                     58/80 
-DEBUG util.py:492:    Verifying        : perl-podlators-4.11-1.el8.noarch                     59/80 
-DEBUG util.py:492:    Verifying        : perl-threads-1:2.21-2.el8.x86_64                     60/80 
-DEBUG util.py:492:    Verifying        : perl-threads-shared-1.58-2.el8.x86_64                61/80 
-DEBUG util.py:492:    Verifying        : pesign-0.112-25.0.1.el8.x86_64                       62/80 
-DEBUG util.py:492:    Verifying        : zlib-devel-1.2.11-10.el8.x86_64                      63/80 
-DEBUG util.py:492:    Verifying        : elfutils-libelf-devel-0.176-4.el8.x86_64             64/80 
-DEBUG util.py:492:    Verifying        : git-2.18.1-4.el8.x86_64                              65/80 
-DEBUG util.py:492:    Verifying        : git-core-2.18.1-4.el8.x86_64                         66/80 
-DEBUG util.py:492:    Verifying        : git-core-doc-2.18.1-4.el8.noarch                     67/80 
-DEBUG util.py:492:    Verifying        : krb5-devel-1.17-7.el8.x86_64                         68/80 
-DEBUG util.py:492:    Verifying        : libcom_err-devel-1.44.6-3.el8.x86_64                 69/80 
-DEBUG util.py:492:    Verifying        : libkadm5-1.17-7.el8.x86_64                           70/80 
-DEBUG util.py:492:    Verifying        : libselinux-devel-2.9-1.el8.x86_64                    71/80 
-DEBUG util.py:492:    Verifying        : libsepol-devel-2.9-1.el8.x86_64                      72/80 
-DEBUG util.py:492:    Verifying        : openssh-8.0p1-2.el8.x86_64                           73/80 
-DEBUG util.py:492:    Verifying        : openssh-clients-8.0p1-2.el8.x86_64                   74/80 
-DEBUG util.py:492:    Verifying        : openssl-1:1.1.1c-1.el8.x86_64                        75/80 
-DEBUG util.py:492:    Verifying        : openssl-devel-1:1.1.1c-1.el8.x86_64                  76/80 
-DEBUG util.py:492:    Verifying        : perl-Git-2.18.1-4.el8.noarch                         77/80 
-DEBUG util.py:492:    Verifying        : perl-IO-Socket-SSL-2.066-2.el8.noarch                78/80 
-DEBUG util.py:492:    Verifying        : perl-Net-SSLeay-1.88-1.el8.x86_64                    79/80 
-DEBUG util.py:492:    Verifying        : perl-Socket-4:2.027-3.el8.x86_64                     80/80 
+DEBUG util.py:492:  Installed: gnu-efi-devel-1:3.0.8-2.el8.x86_64
+DEBUG util.py:492:    Installing       : gnu-efi-devel-1:3.0.8-2.el8.x86_64                   69/72 
+DEBUG util.py:492:  Installed: gnu-efi-devel-1:3.0.8-2.el8.x86_64
+DEBUG util.py:492:  Installed: openssl-devel-1:1.1.1-8.0.1.el8.x86_64
+DEBUG util.py:492:    Installing       : openssl-devel-1:1.1.1-8.0.1.el8.x86_64               70/72 
+DEBUG util.py:492:  Installed: openssl-devel-1:1.1.1-8.0.1.el8.x86_64
+DEBUG util.py:492:  Installed: elfutils-libelf-devel-0.174-6.el8.x86_64
+DEBUG util.py:492:    Installing       : elfutils-libelf-devel-0.174-6.el8.x86_64             71/72 
+DEBUG util.py:492:  Installed: elfutils-libelf-devel-0.174-6.el8.x86_64
+DEBUG util.py:492:  Installed: openssl-1:1.1.1-8.0.1.el8.x86_64
+DEBUG util.py:492:    Installing       : openssl-1:1.1.1-8.0.1.el8.x86_64                     72/72 
+DEBUG util.py:492:  Installed: openssl-1:1.1.1-8.0.1.el8.x86_64
+DEBUG util.py:492:    Running scriptlet: openssl-1:1.1.1-8.0.1.el8.x86_64                     72/72 
+DEBUG util.py:492:    Verifying        : libselinux-devel-2.8-6.module+el8+5159+1f46f18f.x8    1/72 
+DEBUG util.py:492:    Verifying        : efivar-libs-36-1.el8.x86_64                           2/72 
+DEBUG util.py:492:    Verifying        : elfutils-libelf-devel-0.174-6.el8.x86_64              3/72 
+DEBUG util.py:492:    Verifying        : emacs-filesystem-1:26.1-5.el8.noarch                  4/72 
+DEBUG util.py:492:    Verifying        : fipscheck-1.5.0-4.el8.x86_64                          5/72 
+DEBUG util.py:492:    Verifying        : fipscheck-lib-1.5.0-4.el8.x86_64                      6/72 
+DEBUG util.py:492:    Verifying        : git-2.18.1-3.el8.x86_64                               7/72 
+DEBUG util.py:492:    Verifying        : git-core-2.18.1-3.el8.x86_64                          8/72 
+DEBUG util.py:492:    Verifying        : git-core-doc-2.18.1-3.el8.noarch                      9/72 
+DEBUG util.py:492:    Verifying        : gnu-efi-1:3.0.8-2.el8.x86_64                         10/72 
+DEBUG util.py:492:    Verifying        : gnu-efi-devel-1:3.0.8-2.el8.x86_64                   11/72 
+DEBUG util.py:492:    Verifying        : groff-base-1.22.3-18.el8.x86_64                      12/72 
+DEBUG util.py:492:    Verifying        : keyutils-libs-devel-1.5.10-6.el8.x86_64              13/72 
+DEBUG util.py:492:    Verifying        : krb5-devel-1.16.1-22.el8.x86_64                      14/72 
+DEBUG util.py:492:    Verifying        : less-530-1.el8.x86_64                                15/72 
+DEBUG util.py:492:    Verifying        : libcom_err-devel-1.44.3-2.el8.x86_64                 16/72 
+DEBUG util.py:492:    Verifying        : libedit-3.1-23.20170329cvs.el8.x86_64                17/72 
+DEBUG util.py:492:    Verifying        : libkadm5-1.16.1-22.el8.x86_64                        18/72 
+DEBUG util.py:492:    Verifying        : libsecret-0.18.6-1.el8.x86_64                        19/72 
+DEBUG util.py:492:    Verifying        : libsepol-devel-2.8-2.el8.x86_64                      20/72 
+DEBUG util.py:492:    Verifying        : libverto-devel-0.3.0-5.el8.x86_64                    21/72 
+DEBUG util.py:492:    Verifying        : nspr-4.21.0-2.el8_0.x86_64                           22/72 
+DEBUG util.py:492:    Verifying        : nss-3.44.0-7.el8_0.x86_64                            23/72 
+DEBUG util.py:492:    Verifying        : nss-softokn-3.44.0-7.el8_0.x86_64                    24/72 
+DEBUG util.py:492:    Verifying        : nss-softokn-freebl-3.44.0-7.el8_0.x86_64             25/72 
+DEBUG util.py:492:    Verifying        : nss-sysinit-3.44.0-7.el8_0.x86_64                    26/72 
+DEBUG util.py:492:    Verifying        : nss-tools-3.44.0-7.el8_0.x86_64                      27/72 
+DEBUG util.py:492:    Verifying        : nss-util-3.44.0-7.el8_0.x86_64                       28/72 
+DEBUG util.py:492:    Verifying        : openssh-7.8p1-4.el8.x86_64                           29/72 
+DEBUG util.py:492:    Verifying        : openssh-clients-7.8p1-4.el8.x86_64                   30/72 
+DEBUG util.py:492:    Verifying        : openssl-1:1.1.1-8.0.1.el8.x86_64                     31/72 
+DEBUG util.py:492:    Verifying        : openssl-devel-1:1.1.1-8.0.1.el8.x86_64               32/72 
+DEBUG util.py:492:    Verifying        : pcre2-devel-10.32-1.el8.x86_64                       33/72 
+DEBUG util.py:492:    Verifying        : pcre2-utf16-10.32-1.el8.x86_64                       34/72 
+DEBUG util.py:492:    Verifying        : pcre2-utf32-10.32-1.el8.x86_64                       35/72 
+DEBUG util.py:492:    Verifying        : perl-Carp-1.42-396.el8.noarch                        36/72 
+DEBUG util.py:492:    Verifying        : perl-Encode-4:2.97-3.el8.x86_64                      37/72 
+DEBUG util.py:492:    Verifying        : perl-Errno-1.28-416.el8.x86_64                       38/72 
+DEBUG util.py:492:    Verifying        : perl-Error-1:0.17025-2.el8.noarch                    39/72 
+DEBUG util.py:492:    Verifying        : perl-Exporter-5.72-396.el8.noarch                    40/72 
+DEBUG util.py:492:    Verifying        : perl-File-Path-2.15-2.el8.noarch                     41/72 
+DEBUG util.py:492:    Verifying        : perl-File-Temp-0.230.600-1.el8.noarch                42/72 
+DEBUG util.py:492:    Verifying        : perl-Getopt-Long-1:2.50-4.el8.noarch                 43/72 
+DEBUG util.py:492:    Verifying        : perl-Git-2.18.1-3.el8.noarch                         44/72 
+DEBUG util.py:492:    Verifying        : perl-HTTP-Tiny-0.074-1.el8.noarch                    45/72 
+DEBUG util.py:492:    Verifying        : perl-IO-1.38-416.el8.x86_64                          46/72 
+DEBUG util.py:492:    Verifying        : perl-MIME-Base64-3.15-396.el8.x86_64                 47/72 
+DEBUG util.py:492:    Verifying        : perl-PathTools-3.74-1.el8.x86_64                     48/72 
+DEBUG util.py:492:    Verifying        : perl-Pod-Escapes-1:1.07-395.el8.noarch               49/72 
+DEBUG util.py:492:    Verifying        : perl-Pod-Perldoc-3.28-396.el8.noarch                 50/72 
+DEBUG util.py:492:    Verifying        : perl-Pod-Simple-1:3.35-395.el8.noarch                51/72 
+DEBUG util.py:492:    Verifying        : perl-Pod-Usage-4:1.69-395.el8.noarch                 52/72 
+DEBUG util.py:492:    Verifying        : perl-Scalar-List-Utils-3:1.49-2.el8.x86_64           53/72 
+DEBUG util.py:492:    Verifying        : perl-Socket-4:2.027-2.el8.x86_64                     54/72 
+DEBUG util.py:492:    Verifying        : perl-Storable-1:3.11-3.el8.x86_64                    55/72 
+DEBUG util.py:492:    Verifying        : perl-Term-ANSIColor-4.06-396.el8.noarch              56/72 
+DEBUG util.py:492:    Verifying        : perl-Term-Cap-1.17-395.el8.noarch                    57/72 
+DEBUG util.py:492:    Verifying        : perl-TermReadKey-2.37-7.el8.x86_64                   58/72 
+DEBUG util.py:492:    Verifying        : perl-Text-ParseWords-3.30-395.el8.noarch             59/72 
+DEBUG util.py:492:    Verifying        : perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch         60/72 
+DEBUG util.py:492:    Verifying        : perl-Time-Local-1:1.280-1.el8.noarch                 61/72 
+DEBUG util.py:492:    Verifying        : perl-Unicode-Normalize-1.25-396.el8.x86_64           62/72 
+DEBUG util.py:492:    Verifying        : perl-constant-1.33-396.el8.noarch                    63/72 
+DEBUG util.py:492:    Verifying        : perl-interpreter-4:5.26.3-416.el8.x86_64             64/72 
+DEBUG util.py:492:    Verifying        : perl-libs-4:5.26.3-416.el8.x86_64                    65/72 
+DEBUG util.py:492:    Verifying        : perl-macros-4:5.26.3-416.el8.x86_64                  66/72 
+DEBUG util.py:492:    Verifying        : perl-parent-1:0.237-1.el8.noarch                     67/72 
+DEBUG util.py:492:    Verifying        : perl-podlators-4.11-1.el8.noarch                     68/72 
+DEBUG util.py:492:    Verifying        : perl-threads-1:2.21-2.el8.x86_64                     69/72 
+DEBUG util.py:492:    Verifying        : perl-threads-shared-1.58-2.el8.x86_64                70/72 
+DEBUG util.py:492:    Verifying        : pesign-0.112-25.0.1.el8.x86_64                       71/72 
+DEBUG util.py:492:    Verifying        : zlib-devel-1.2.11-10.el8.x86_64                      72/72 
 DEBUG util.py:492:  Installed:
-DEBUG util.py:492:    gnu-efi-1:3.0.8-2.0.1.el8.x86_64                                              
-DEBUG util.py:492:    gnu-efi-devel-1:3.0.8-2.0.1.el8.x86_64                                        
+DEBUG util.py:492:    elfutils-libelf-devel-0.174-6.el8.x86_64                                      
+DEBUG util.py:492:    git-2.18.1-3.el8.x86_64                                                       
+DEBUG util.py:492:    gnu-efi-1:3.0.8-2.el8.x86_64                                                  
+DEBUG util.py:492:    gnu-efi-devel-1:3.0.8-2.el8.x86_64                                            
+DEBUG util.py:492:    openssl-1:1.1.1-8.0.1.el8.x86_64                                              
+DEBUG util.py:492:    openssl-devel-1:1.1.1-8.0.1.el8.x86_64                                        
 DEBUG util.py:492:    pesign-0.112-25.0.1.el8.x86_64                                                
-DEBUG util.py:492:    elfutils-libelf-devel-0.176-4.el8.x86_64                                      
-DEBUG util.py:492:    git-2.18.1-4.el8.x86_64                                                       
-DEBUG util.py:492:    openssl-1:1.1.1c-1.el8.x86_64                                                 
-DEBUG util.py:492:    openssl-devel-1:1.1.1c-1.el8.x86_64                                           
-DEBUG util.py:492:    perl-IO-Socket-IP-0.39-5.el8.noarch                                           
-DEBUG util.py:492:    perl-Mozilla-CA-20160104-7.el8.noarch                                         
-DEBUG util.py:492:    perl-IO-Socket-SSL-2.066-2.el8.noarch                                         
+DEBUG util.py:492:    libselinux-devel-2.8-6.module+el8+5159+1f46f18f.x86_64                        
 DEBUG util.py:492:    efivar-libs-36-1.el8.x86_64                                                   
 DEBUG util.py:492:    emacs-filesystem-1:26.1-5.el8.noarch                                          
 DEBUG util.py:492:    fipscheck-1.5.0-4.el8.x86_64                                                  
 DEBUG util.py:492:    fipscheck-lib-1.5.0-4.el8.x86_64                                              
+DEBUG util.py:492:    git-core-2.18.1-3.el8.x86_64                                                  
+DEBUG util.py:492:    git-core-doc-2.18.1-3.el8.noarch                                              
 DEBUG util.py:492:    groff-base-1.22.3-18.el8.x86_64                                               
 DEBUG util.py:492:    keyutils-libs-devel-1.5.10-6.el8.x86_64                                       
+DEBUG util.py:492:    krb5-devel-1.16.1-22.el8.x86_64                                               
 DEBUG util.py:492:    less-530-1.el8.x86_64                                                         
+DEBUG util.py:492:    libcom_err-devel-1.44.3-2.el8.x86_64                                          
 DEBUG util.py:492:    libedit-3.1-23.20170329cvs.el8.x86_64                                         
+DEBUG util.py:492:    libkadm5-1.16.1-22.el8.x86_64                                                 
+DEBUG util.py:492:    libsecret-0.18.6-1.el8.x86_64                                                 
+DEBUG util.py:492:    libsepol-devel-2.8-2.el8.x86_64                                               
 DEBUG util.py:492:    libverto-devel-0.3.0-5.el8.x86_64                                             
 DEBUG util.py:492:    nspr-4.21.0-2.el8_0.x86_64                                                    
 DEBUG util.py:492:    nss-3.44.0-7.el8_0.x86_64                                                     
@@ -703,13 +656,12 @@ DEBUG util.py:492:    nss-softokn-freebl-3.44.0-7.el8_0.x86_64
 DEBUG util.py:492:    nss-sysinit-3.44.0-7.el8_0.x86_64                                             
 DEBUG util.py:492:    nss-tools-3.44.0-7.el8_0.x86_64                                               
 DEBUG util.py:492:    nss-util-3.44.0-7.el8_0.x86_64                                                
+DEBUG util.py:492:    openssh-7.8p1-4.el8.x86_64                                                    
+DEBUG util.py:492:    openssh-clients-7.8p1-4.el8.x86_64                                            
 DEBUG util.py:492:    pcre2-devel-10.32-1.el8.x86_64                                                
 DEBUG util.py:492:    pcre2-utf16-10.32-1.el8.x86_64                                                
 DEBUG util.py:492:    pcre2-utf32-10.32-1.el8.x86_64                                                
 DEBUG util.py:492:    perl-Carp-1.42-396.el8.noarch                                                 
-DEBUG util.py:492:    perl-Data-Dumper-2.167-399.el8.x86_64                                         
-DEBUG util.py:492:    perl-Digest-1.17-395.el8.noarch                                               
-DEBUG util.py:492:    perl-Digest-MD5-2.55-396.el8.x86_64                                           
 DEBUG util.py:492:    perl-Encode-4:2.97-3.el8.x86_64                                               
 DEBUG util.py:492:    perl-Errno-1.28-416.el8.x86_64                                                
 DEBUG util.py:492:    perl-Error-1:0.17025-2.el8.noarch                                             
@@ -717,6 +669,7 @@ DEBUG util.py:492:    perl-Exporter-5.72-396.el8.noarch
 DEBUG util.py:492:    perl-File-Path-2.15-2.el8.noarch                                              
 DEBUG util.py:492:    perl-File-Temp-0.230.600-1.el8.noarch                                         
 DEBUG util.py:492:    perl-Getopt-Long-1:2.50-4.el8.noarch                                          
+DEBUG util.py:492:    perl-Git-2.18.1-3.el8.noarch                                                  
 DEBUG util.py:492:    perl-HTTP-Tiny-0.074-1.el8.noarch                                             
 DEBUG util.py:492:    perl-IO-1.38-416.el8.x86_64                                                   
 DEBUG util.py:492:    perl-MIME-Base64-3.15-396.el8.x86_64                                          
@@ -726,6 +679,7 @@ DEBUG util.py:492:    perl-Pod-Perldoc-3.28-396.el8.noarch
 DEBUG util.py:492:    perl-Pod-Simple-1:3.35-395.el8.noarch                                         
 DEBUG util.py:492:    perl-Pod-Usage-4:1.69-395.el8.noarch                                          
 DEBUG util.py:492:    perl-Scalar-List-Utils-3:1.49-2.el8.x86_64                                    
+DEBUG util.py:492:    perl-Socket-4:2.027-2.el8.x86_64                                              
 DEBUG util.py:492:    perl-Storable-1:3.11-3.el8.x86_64                                             
 DEBUG util.py:492:    perl-Term-ANSIColor-4.06-396.el8.noarch                                       
 DEBUG util.py:492:    perl-Term-Cap-1.17-395.el8.noarch                                             
@@ -733,11 +687,9 @@ DEBUG util.py:492:    perl-TermReadKey-2.37-7.el8.x86_64
 DEBUG util.py:492:    perl-Text-ParseWords-3.30-395.el8.noarch                                      
 DEBUG util.py:492:    perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch                                  
 DEBUG util.py:492:    perl-Time-Local-1:1.280-1.el8.noarch                                          
-DEBUG util.py:492:    perl-URI-1.73-3.el8.noarch                                                    
 DEBUG util.py:492:    perl-Unicode-Normalize-1.25-396.el8.x86_64                                    
 DEBUG util.py:492:    perl-constant-1.33-396.el8.noarch                                             
 DEBUG util.py:492:    perl-interpreter-4:5.26.3-416.el8.x86_64                                      
-DEBUG util.py:492:    perl-libnet-3.11-3.el8.noarch                                                 
 DEBUG util.py:492:    perl-libs-4:5.26.3-416.el8.x86_64                                             
 DEBUG util.py:492:    perl-macros-4:5.26.3-416.el8.x86_64                                           
 DEBUG util.py:492:    perl-parent-1:0.237-1.el8.noarch                                              
@@ -745,41 +697,29 @@ DEBUG util.py:492:    perl-podlators-4.11-1.el8.noarch
 DEBUG util.py:492:    perl-threads-1:2.21-2.el8.x86_64                                              
 DEBUG util.py:492:    perl-threads-shared-1.58-2.el8.x86_64                                         
 DEBUG util.py:492:    zlib-devel-1.2.11-10.el8.x86_64                                               
-DEBUG util.py:492:    git-core-2.18.1-4.el8.x86_64                                                  
-DEBUG util.py:492:    git-core-doc-2.18.1-4.el8.noarch                                              
-DEBUG util.py:492:    krb5-devel-1.17-7.el8.x86_64                                                  
-DEBUG util.py:492:    libcom_err-devel-1.44.6-3.el8.x86_64                                          
-DEBUG util.py:492:    libkadm5-1.17-7.el8.x86_64                                                    
-DEBUG util.py:492:    libselinux-devel-2.9-1.el8.x86_64                                             
-DEBUG util.py:492:    libsepol-devel-2.9-1.el8.x86_64                                               
-DEBUG util.py:492:    openssh-8.0p1-2.el8.x86_64                                                    
-DEBUG util.py:492:    openssh-clients-8.0p1-2.el8.x86_64                                            
-DEBUG util.py:492:    perl-Git-2.18.1-4.el8.noarch                                                  
-DEBUG util.py:492:    perl-Net-SSLeay-1.88-1.el8.x86_64                                             
-DEBUG util.py:492:    perl-Socket-4:2.027-3.el8.x86_64                                              
 DEBUG util.py:492:  Complete!
 DEBUG util.py:634:  Child return code was: 0
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: rpm -qa --root '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root' --qf '%{nevra} %{buildtime} %{size} %{pkgid} installed\n' > result/x86_64/installed_pkgs.log with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'en_US.UTF-8', 'no_proxy': 'us.oracle.com,.oraclecorp.com'} and shell True
+DEBUG util.py:579:  Executing command: rpm -qa --root '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root' --qf '%{nevra} %{buildtime} %{size} %{pkgid} installed\n' > result/x86_64/installed_pkgs.log with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'en_US.UTF-8', 'no_proxy': 'us.oracle.com,.oraclecorp.com'} and shell True
 DEBUG util.py:634:  Child return code was: 0
 DEBUG util.py:653:  child environment: None
 DEBUG util.py:325:  Unsharing. Flags: 134217728
 DEBUG backend.py:530:  Copying packages to result dir
 DEBUG util.py:228:  kill orphans
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/var/cache/yum/'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/var/cache/yum/'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
 DEBUG util.py:653:  child environment: None
-DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u1-oci_ol8_package_builder-2463/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
+DEBUG util.py:579:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/rhel8-x86_64-u0-oci_ol8_package_builder-3015/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False
 DEBUG util.py:634:  Child return code was: 0
 DEBUG util.py:653:  child environment: None
 DEBUG util.py:579:  Executing command: ['btrfs', 'subv', 'list', '/var/lib/mock'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8'} and shell False

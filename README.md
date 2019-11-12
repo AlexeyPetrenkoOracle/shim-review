@@ -293,7 +293,7 @@ https://github.com/rhboot/shim/releases/tag/15
 -------------------------------------------------------------------------------
 URL for a repo that contains the exact code which was built to get this binary:
 -------------------------------------------------------------------------------
-https://oss.oracle.com/ol8/shim/15-2.0.2.el8/shim-unsigned-x64-15-2.0.2.el8.src.rpm
+https://oss.oracle.com/ol8/shim/15-2.0.3.el8/shim-unsigned-x64-15-2.0.3.el8.src.rpm
 
 -------------------------------------------------------------------------------
 What patches are being applied and why:
